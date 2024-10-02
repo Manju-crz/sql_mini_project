@@ -51,5 +51,17 @@ Follow these below steps to run the queries:
     - Copy the location of the directory 'SQL_Mini_Project' (Make sure the path is pointing to csv files)
     - Open the file 'BikeStores-load_data', and replace all the text 'CSV_FILES_PATH' to copied path (eg- C:\\DATA\\VS_Code_Notes\\SQL_Mini_Project) Note- You may have to use single forward slash in case of mac
 
-### 5. Load t
+## Schema Overview
+
+The **BikeStores** database contains information related to a bike store chain, including products, customers, orders, and staff. The primary tables in the schema are:
+
+- **Stores**: Information about store locations.
+- **Staffs**: Details of staff members and their roles.
+- **Brands**: Brands of the products sold.
+- **Categories**: Categories of the products.
+- **Products**: Detailed product information.
+- **Stocks**: Inventory levels of products in stores.
+- **Customers**: Customer information.
+- **Orders**: Orders placed by customers.
+- **Order Items**: Details of products within each order.
 
