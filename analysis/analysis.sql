@@ -101,7 +101,7 @@ JOIN stores as sto
     ON sta.store_id = sto.store_id 
 WHERE sta.active = 1;
 
-SELECT first_name, last_name, email, phone
+SELECT concat_ws(' ',first_name,last_name) AS customer_name, email, phone
 FROM customers;
 
 SELECT c.category_name as category_name, COUNT(1) as num_product
@@ -349,7 +349,7 @@ We just then use the data from 2016 andd 2017 to make the calculations.
 */
 SELECT
     year(order_date) as year,
-    monthname(order_date) as month,
+    month(order_date) as month,
     SUM(quantity) as unit_sold,
     SUM(quantity * oi.list_price * (1 - oi.discount)) AS total_sales
 FROM orders o
@@ -361,9 +361,9 @@ GROUP BY 1,2;
 WITH sales_data AS (
     SELECT
         year(o.order_date) as year,
-        monthname(o.order_date) as month,
+        month(o.order_date) as month,
         SUM(oi.quantity * oi.list_price * (1 - oi.discount)) as sales_amount,
-        LAG(SUM(oi.quantity * oi.list_price * (1 - oi.discount)), 1) OVER (ORDER BY monthname(o.order_date)) AS prev_sales_amount
+        LAG(SUM(oi.quantity * oi.list_price * (1 - oi.discount)), 1) OVER (ORDER BY month(o.order_date)) AS prev_sales_amount
     FROM
         orders o
     JOIN 
@@ -392,9 +392,9 @@ ORDER BY
 WITH sales_data AS (
     SELECT
         year(o.order_date) as year,
-        monthname(o.order_date) as month,
+        month(o.order_date) as month,
         SUM(oi.quantity * oi.list_price * (1 - oi.discount)) as sales_amount,
-        LAG(SUM(oi.quantity * oi.list_price * (1 - oi.discount)), 1) OVER (ORDER BY monthname(o.order_date)) AS prev_sales_amount
+        LAG(SUM(oi.quantity * oi.list_price * (1 - oi.discount)), 1) OVER (ORDER BY month(o.order_date)) AS prev_sales_amount
     FROM
         orders o
     JOIN 
