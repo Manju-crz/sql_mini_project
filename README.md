@@ -6,7 +6,7 @@
         - Select a dataset
         - Perform data cleaning 
         - Pre-processing, 
-        - Conduct exploratory data analysis (EDA)
+        - Conduct data analysis
         - Present the findings
 
 
@@ -37,6 +37,7 @@ Follow these below steps to run the queries:
     - Need to unzip the submitted 'SQL_Mini_Project', and store it into your preferred local directory.
         Unzipped directory contains the queries schema files and data set related csv files along with reference documents.
         Note : Instead, you may also download the data set CSV files from the kaggle link - https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data
+    - Currently we have the data from 2016 to 2018 in this data set
 
 ### 2. Connect to the server
         Before opening the database connection, you would be required to edit the connection from settings:
