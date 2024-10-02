@@ -504,6 +504,22 @@ SELECT
         JOIN products as p
             ON oi.product_id = p.product_id
     GROUP BY oi.product_id,oi.list_price,discount
+    HAVING SUM(quantity) < 30
+    ORDER BY 3 DESC;
+
+SELECT 
+        oi.product_id,
+        product_name,
+        SUM(quantity) as unit_sold,
+        oi.list_price,
+        discount,
+        oi.list_price * (1 - discount) AS discounted_price,
+        SUM(SUM((oi.list_price * (1 - discount))*quantity)) OVER (PARTITION BY oi.product_id)  AS total_sales_per_product
+    FROM 
+        order_items as oi
+        JOIN products as p
+            ON oi.product_id = p.product_id
+    GROUP BY oi.product_id,oi.list_price,discount
     HAVING SUM(quantity) > 50
     ORDER BY 3 DESC;
     /*
