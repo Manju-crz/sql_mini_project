@@ -3,10 +3,20 @@
 Name   : BikeStores
 Link   : https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data
 Version: 1.0
+
+workbench connection 
+
+host: group3.mysql.database.azure.com
+user : group3
+port: 3306
+pass : SQLgroup3project
+
+options flag: 
+OPT_LOCAL_INFILE=1
 --------------------------------------------------------------------
 */
 -- use schemas
-use sql12732768;
+use bikestore;
 
 -- load data for categories
 LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/categories.csv'

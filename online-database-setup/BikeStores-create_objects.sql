@@ -3,32 +3,42 @@
 Name   : BikeStores
 Link   : https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data
 Version: 1.0
+
+workbench connection 
+
+host: group3.mysql.database.azure.com
+user : group3
+port: 3306
+pass : SQLgroup3project
+
+options flag: 
+OPT_LOCAL_INFILE=1
 --------------------------------------------------------------------
 */
 
 -- create tables
-CREATE TABLE sql12732768.categories (
+CREATE TABLE bikestore.categories (
 	category_id INT PRIMARY KEY,
 	category_name VARCHAR (255) NOT NULL
 );
 
-CREATE TABLE sql12732768.brands (
+CREATE TABLE bikestore.brands (
 	brand_id INT PRIMARY KEY,
 	brand_name VARCHAR (255) NOT NULL
 );
 
-CREATE TABLE sql12732768.products (
+CREATE TABLE bikestore.products (
 	product_id INT PRIMARY KEY,
 	product_name VARCHAR (255) NOT NULL,
 	brand_id INT NOT NULL,
 	category_id INT NOT NULL,
 	model_year SMALLINT NOT NULL,
 	list_price DECIMAL (10, 2) NOT NULL,
-	FOREIGN KEY (category_id) REFERENCES sql12732768.categories (category_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (brand_id) REFERENCES sql12732768.brands (brand_id) ON DELETE CASCADE ON UPDATE CASCADE
+	FOREIGN KEY (category_id) REFERENCES bikestore.categories (category_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (brand_id) REFERENCES bikestore.brands (brand_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-CREATE TABLE sql12732768.customers (
+CREATE TABLE bikestore.customers (
 	customer_id INT PRIMARY KEY,
 	first_name VARCHAR (255) NOT NULL,
 	last_name VARCHAR (255) NOT NULL,
@@ -40,7 +50,7 @@ CREATE TABLE sql12732768.customers (
 	zip_code VARCHAR (5)
 );
 
-CREATE TABLE sql12732768.stores (
+CREATE TABLE bikestore.stores (
 	store_id INT PRIMARY KEY,
 	store_name VARCHAR (255) NOT NULL,
 	phone VARCHAR (25),
@@ -51,7 +61,7 @@ CREATE TABLE sql12732768.stores (
 	zip_code VARCHAR (5)
 );
 
-CREATE TABLE sql12732768.staffs (
+CREATE TABLE bikestore.staffs (
 	staff_id INT PRIMARY KEY,
 	first_name VARCHAR (50) NOT NULL,
 	last_name VARCHAR (50) NOT NULL,
@@ -60,11 +70,11 @@ CREATE TABLE sql12732768.staffs (
 	active tinyint NOT NULL,
 	store_id INT NOT NULL,
 	manager_id INT,
-	FOREIGN KEY (store_id) REFERENCES sql12732768.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (manager_id) REFERENCES sql12732768.staffs (staff_id) ON DELETE NO ACTION ON UPDATE NO ACTION
+	FOREIGN KEY (store_id) REFERENCES bikestore.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (manager_id) REFERENCES bikestore.staffs (staff_id) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
 
-CREATE TABLE sql12732768.orders (
+CREATE TABLE bikestore.orders (
 	order_id INT PRIMARY KEY,
 	customer_id INT,
 	order_status tinyint NOT NULL,
@@ -74,12 +84,12 @@ CREATE TABLE sql12732768.orders (
 	shipped_date DATE,
 	store_id INT NOT NULL,
 	staff_id INT NOT NULL,
-	FOREIGN KEY (customer_id) REFERENCES sql12732768.customers (customer_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (store_id) REFERENCES sql12732768.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (staff_id) REFERENCES sql12732768.staffs (staff_id) ON DELETE NO ACTION ON UPDATE NO ACTION
+	FOREIGN KEY (customer_id) REFERENCES bikestore.customers (customer_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (store_id) REFERENCES bikestore.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (staff_id) REFERENCES bikestore.staffs (staff_id) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
 
-CREATE TABLE sql12732768.order_items (
+CREATE TABLE bikestore.order_items (
 	order_id INT,
 	item_id INT,
 	product_id INT NOT NULL,
@@ -87,15 +97,15 @@ CREATE TABLE sql12732768.order_items (
 	list_price DECIMAL (10, 2) NOT NULL,
 	discount DECIMAL (4, 2) NOT NULL DEFAULT 0,
 	PRIMARY KEY (order_id, item_id),
-	FOREIGN KEY (order_id) REFERENCES sql12732768.orders (order_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (product_id) REFERENCES sql12732768.products (product_id) ON DELETE CASCADE ON UPDATE CASCADE
+	FOREIGN KEY (order_id) REFERENCES bikestore.orders (order_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (product_id) REFERENCES bikestore.products (product_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-CREATE TABLE sql12732768.stocks (
+CREATE TABLE bikestore.stocks (
 	store_id INT,
 	product_id INT,
 	quantity INT,
 	PRIMARY KEY (store_id, product_id),
-	FOREIGN KEY (store_id) REFERENCES sql12732768.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (product_id) REFERENCES sql12732768.products (product_id) ON DELETE CASCADE ON UPDATE CASCADE
+	FOREIGN KEY (store_id) REFERENCES bikestore.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (product_id) REFERENCES bikestore.products (product_id) ON DELETE CASCADE ON UPDATE CASCADE
 );

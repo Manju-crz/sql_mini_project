@@ -3,16 +3,26 @@
 Name   : BikeStores
 Link   : https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data
 Version: 1.0
+
+workbench connection 
+
+host: group3.mysql.database.azure.com
+user : group3
+port: 3306
+pass : SQLgroup3project
+
+options flag: 
+OPT_LOCAL_INFILE=1
 --------------------------------------------------------------------
 */
 
 -- drop tables
-DROP TABLE IF EXISTS sql12732768.order_items;
-DROP TABLE IF EXISTS sql12732768.orders;
-DROP TABLE IF EXISTS sql12732768.stocks;
-DROP TABLE IF EXISTS sql12732768.products;
-DROP TABLE IF EXISTS sql12732768.categories;
-DROP TABLE IF EXISTS sql12732768.brands;
-DROP TABLE IF EXISTS sql12732768.customers;
-DROP TABLE IF EXISTS sql12732768.staffs;
-DROP TABLE IF EXISTS sql12732768.stores;
+DROP TABLE IF EXISTS bikestore.order_items;
+DROP TABLE IF EXISTS bikestore.orders;
+DROP TABLE IF EXISTS bikestore.stocks;
+DROP TABLE IF EXISTS bikestore.products;
+DROP TABLE IF EXISTS bikestore.categories;
+DROP TABLE IF EXISTS bikestore.brands;
+DROP TABLE IF EXISTS bikestore.customers;
+DROP TABLE IF EXISTS bikestore.staffs;
+DROP TABLE IF EXISTS bikestore.stores;
