@@ -104,19 +104,18 @@ The **BikeStores** database contains information related to a bike store chain, 
     - Found missing `shipped_date` entries in the `orders` table, which could affect shipping time analyses.
     - Decided to retain these entries.
 
-### ER Diagram for BikeStores
 
 ### Entities and Attributes
 
-### Brands
+#### Brands
 - `brand_id` (INT)
 - `brand_name` (VARCHAR(255))
 
-### Categories
+#### Categories
 - `category_id` (INT)
 - `category_name` (VARCHAR(255))
 
-### Customers
+#### Customers
 - `customer_id` (INT)
 - `first_name` (VARCHAR(255))
 - `last_name` (VARCHAR(255))
@@ -127,7 +126,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 - `state` (VARCHAR(25))
 - `zip_code` (VARCHAR(5))
 
-### Order Items
+#### Order Items
 - `order_id` (INT)
 - `item_id` (INT)
 - `product_id` (INT)
@@ -135,7 +134,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 - `list_price` (DECIMAL(10,2))
 - `discount` (DECIMAL(4,2))
 
-### Orders
+#### Orders
 - `order_id` (INT)
 - `customer_id` (INT)
 - `order_status` (TINYINT)
@@ -145,7 +144,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 - `store_id` (INT)
 - `staff_id` (INT)
 
-### Products
+#### Products
 - `product_id` (INT)
 - `product_name` (VARCHAR(255))
 - `brand_id` (INT)
@@ -153,7 +152,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 - `model_year` (SMALLINT)
 - `list_price` (DECIMAL(10,2))
 
-### Staffs
+#### Staffs
 - `staff_id` (INT)
 - `first_name` (VARCHAR(50))
 - `last_name` (VARCHAR(50))
@@ -163,12 +162,12 @@ The **BikeStores** database contains information related to a bike store chain, 
 - `store_id` (INT)
 - `manager_id` (INT)
 
-### Stocks
+#### Stocks
 - `store_id` (INT)
 - `product_id` (INT)
 - `quantity` (INT)
 
-### Stores
+#### Stores
 - `store_id` (INT)
 - `store_name` (VARCHAR(255))
 - `phone` (VARCHAR(25))
@@ -179,7 +178,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 - `zip_code` (VARCHAR(5))
 
 
-### Relationships
+#### Relationships
 
 - **Products** are associated with **Brands** and **Categories**.
 - **Customers** place **Orders**.
@@ -190,7 +189,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 - **Stocks** track **Products** in **Stores**.
 
 
-#### Example of Relationships:
+##### Example of Relationships:
 
 - A `Customer` places an `Order`, which contains multiple `Order Items`. Each `Order Item` refers to a specific `Product`. 
 - Each `Product` belongs to a `Brand` and a `Category`.
@@ -199,7 +198,7 @@ The **BikeStores** database contains information related to a bike store chain, 
 
 
 
-### Acknowledgement :
+## Acknowledgement :
 
 - **MySQL Database Server**
 We would like to acknowledge the use of MySQL Database Server, a powerful and widely-used relational database management system that provides an efficient and robust platform for managing and storing our data. Its reliability and performance have greatly enhanced our application's data handling capabilities.
@@ -210,6 +209,8 @@ Special thanks to MySQL Workbench for providing an intuitive and comprehensive i
 - **Azure Database Connection**
 We extend our gratitude to Azure for its cloud database solutions, which allow us to securely access and manage our online databases. The scalability and managed services offered by Azure have been instrumental in supporting our application's needs and ensuring high availability.
 
+- **Hex Platform**
+We would like to acknowledge the Hex platform for its innovative approach to collaborative data analysis. Hex has empowered our team to seamlessly explore, analyze, and visualize data in an integrated environment. Its combination of coding capabilities and no-code options has greatly enhanced our workflow, allowing for effective collaboration and insight sharing among team members. We appreciate the tools and features Hex provides, which have significantly contributed to the success of our data-driven projects.
 
 
 ## Contact Information
