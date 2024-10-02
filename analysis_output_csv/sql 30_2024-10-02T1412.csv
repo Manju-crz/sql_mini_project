@@ -1,0 +1,1446 @@
+customer_id,purchase_frequency,purchase_recency,buying_power
+1,repeat buyer,recent buyer,big spender
+2,repeat buyer,recent buyer,average spender
+3,repeat buyer,recent buyer,big spender
+4,repeat buyer,recent buyer,average spender
+5,repeat buyer,recent buyer,average spender
+6,repeat buyer,recent buyer,big spender
+7,repeat buyer,recent buyer,low spender
+8,repeat buyer,recent buyer,low spender
+9,repeat buyer,recent buyer,big spender
+10,repeat buyer,recent buyer,big spender
+11,repeat buyer,recent buyer,low spender
+12,repeat buyer,recent buyer,big spender
+13,repeat buyer,recent buyer,average spender
+14,repeat buyer,recent buyer,average spender
+15,repeat buyer,recent buyer,low spender
+16,repeat buyer,recent buyer,big spender
+17,repeat buyer,recent buyer,low spender
+18,repeat buyer,recent buyer,average spender
+19,repeat buyer,recent buyer,average spender
+20,repeat buyer,recent buyer,average spender
+21,repeat buyer,recent buyer,average spender
+22,repeat buyer,recent buyer,average spender
+23,repeat buyer,recent buyer,low spender
+24,repeat buyer,recent buyer,average spender
+25,repeat buyer,recent buyer,average spender
+26,repeat buyer,recent buyer,low spender
+27,repeat buyer,recent buyer,average spender
+28,repeat buyer,recent buyer,average spender
+29,repeat buyer,recent buyer,average spender
+30,repeat buyer,recent buyer,low spender
+31,repeat buyer,recent buyer,average spender
+32,repeat buyer,recent buyer,average spender
+33,repeat buyer,recent buyer,average spender
+34,repeat buyer,recent buyer,average spender
+35,repeat buyer,recent buyer,average spender
+36,repeat buyer,recent buyer,low spender
+37,repeat buyer,recent buyer,average spender
+38,repeat buyer,recent buyer,average spender
+39,repeat buyer,recent buyer,average spender
+40,repeat buyer,recent buyer,average spender
+41,repeat buyer,recent buyer,low spender
+42,repeat buyer,recent buyer,low spender
+43,repeat buyer,recent buyer,big spender
+44,repeat buyer,recent buyer,low spender
+45,repeat buyer,recent buyer,low spender
+46,repeat buyer,recent buyer,low spender
+47,repeat buyer,recent buyer,average spender
+48,repeat buyer,recent buyer,average spender
+49,repeat buyer,recent buyer,low spender
+50,repeat buyer,recent buyer,average spender
+51,repeat buyer,recent buyer,low spender
+52,repeat buyer,recent buyer,low spender
+53,repeat buyer,recent buyer,average spender
+54,repeat buyer,recent buyer,average spender
+55,repeat buyer,recent buyer,low spender
+56,repeat buyer,recent buyer,low spender
+57,repeat buyer,recent buyer,low spender
+58,repeat buyer,recent buyer,average spender
+59,repeat buyer,recent buyer,average spender
+60,repeat buyer,recent buyer,low spender
+61,repeat buyer,recent buyer,big spender
+62,repeat buyer,recent buyer,low spender
+63,repeat buyer,recent buyer,average spender
+64,repeat buyer,recent buyer,low spender
+65,repeat buyer,recent buyer,average spender
+66,repeat buyer,recent buyer,big spender
+67,repeat buyer,recent buyer,low spender
+68,repeat buyer,recent buyer,average spender
+69,repeat buyer,recent buyer,low spender
+70,repeat buyer,recent buyer,average spender
+71,repeat buyer,recent buyer,low spender
+72,repeat buyer,recent buyer,average spender
+73,repeat buyer,recent buyer,big spender
+74,repeat buyer,recent buyer,low spender
+75,repeat buyer,recent buyer,big spender
+76,repeat buyer,recent buyer,low spender
+77,repeat buyer,recent buyer,low spender
+78,repeat buyer,recent buyer,low spender
+79,repeat buyer,recent buyer,average spender
+80,repeat buyer,recent buyer,low spender
+81,repeat buyer,recent buyer,low spender
+82,repeat buyer,recent buyer,average spender
+83,repeat buyer,recent buyer,low spender
+84,repeat buyer,recent buyer,low spender
+85,repeat buyer,recent buyer,big spender
+86,repeat buyer,recent buyer,average spender
+87,repeat buyer,recent buyer,average spender
+88,repeat buyer,recent buyer,low spender
+89,repeat buyer,recent buyer,average spender
+90,repeat buyer,recent buyer,low spender
+91,repeat buyer,recent buyer,average spender
+92,repeat buyer,recent buyer,low spender
+93,repeat buyer,recent buyer,big spender
+94,repeat buyer,recent buyer,big spender
+95,one-time buyer,not recent buyer,average spender
+96,one-time buyer,not recent buyer,low spender
+97,repeat buyer,recent buyer,low spender
+98,one-time buyer,not recent buyer,low spender
+99,one-time buyer,not recent buyer,low spender
+100,one-time buyer,recent buyer,low spender
+101,one-time buyer,not recent buyer,low spender
+102,one-time buyer,not recent buyer,low spender
+103,one-time buyer,not recent buyer,low spender
+104,repeat buyer,recent buyer,average spender
+105,one-time buyer,not recent buyer,average spender
+106,one-time buyer,not recent buyer,low spender
+107,one-time buyer,not recent buyer,low spender
+108,one-time buyer,not recent buyer,average spender
+109,repeat buyer,recent buyer,average spender
+110,repeat buyer,recent buyer,low spender
+111,one-time buyer,not recent buyer,low spender
+112,one-time buyer,recent buyer,low spender
+113,one-time buyer,not recent buyer,low spender
+114,one-time buyer,recent buyer,low spender
+115,one-time buyer,recent buyer,low spender
+116,repeat buyer,recent buyer,average spender
+117,repeat buyer,not recent buyer,low spender
+118,one-time buyer,not recent buyer,low spender
+119,repeat buyer,recent buyer,average spender
+120,repeat buyer,recent buyer,low spender
+121,repeat buyer,recent buyer,low spender
+122,one-time buyer,recent buyer,big spender
+123,repeat buyer,recent buyer,average spender
+124,repeat buyer,recent buyer,low spender
+125,one-time buyer,not recent buyer,low spender
+126,one-time buyer,recent buyer,low spender
+127,one-time buyer,not recent buyer,low spender
+128,one-time buyer,not recent buyer,low spender
+129,one-time buyer,not recent buyer,low spender
+130,one-time buyer,not recent buyer,low spender
+131,one-time buyer,not recent buyer,low spender
+132,one-time buyer,not recent buyer,low spender
+133,one-time buyer,not recent buyer,low spender
+134,one-time buyer,not recent buyer,low spender
+135,repeat buyer,recent buyer,average spender
+136,repeat buyer,recent buyer,average spender
+137,one-time buyer,not recent buyer,low spender
+138,repeat buyer,recent buyer,average spender
+139,one-time buyer,recent buyer,low spender
+140,one-time buyer,not recent buyer,average spender
+141,one-time buyer,not recent buyer,low spender
+142,one-time buyer,not recent buyer,low spender
+143,one-time buyer,not recent buyer,low spender
+144,one-time buyer,not recent buyer,low spender
+145,one-time buyer,not recent buyer,low spender
+146,one-time buyer,recent buyer,low spender
+147,one-time buyer,not recent buyer,low spender
+148,one-time buyer,not recent buyer,low spender
+149,one-time buyer,not recent buyer,low spender
+150,one-time buyer,not recent buyer,low spender
+151,repeat buyer,recent buyer,low spender
+152,one-time buyer,recent buyer,low spender
+153,repeat buyer,not recent buyer,average spender
+154,one-time buyer,not recent buyer,low spender
+155,one-time buyer,not recent buyer,low spender
+156,one-time buyer,not recent buyer,low spender
+157,repeat buyer,recent buyer,average spender
+158,one-time buyer,not recent buyer,low spender
+159,one-time buyer,not recent buyer,average spender
+160,one-time buyer,not recent buyer,low spender
+161,one-time buyer,not recent buyer,low spender
+162,one-time buyer,not recent buyer,low spender
+163,one-time buyer,not recent buyer,low spender
+164,one-time buyer,not recent buyer,low spender
+165,repeat buyer,recent buyer,average spender
+166,one-time buyer,not recent buyer,low spender
+167,one-time buyer,not recent buyer,average spender
+168,one-time buyer,not recent buyer,low spender
+169,repeat buyer,recent buyer,average spender
+170,repeat buyer,recent buyer,average spender
+171,one-time buyer,not recent buyer,low spender
+172,repeat buyer,recent buyer,average spender
+173,one-time buyer,not recent buyer,low spender
+174,one-time buyer,not recent buyer,low spender
+175,repeat buyer,recent buyer,average spender
+176,repeat buyer,recent buyer,low spender
+177,one-time buyer,not recent buyer,low spender
+178,one-time buyer,not recent buyer,low spender
+179,one-time buyer,not recent buyer,low spender
+180,one-time buyer,recent buyer,low spender
+181,repeat buyer,recent buyer,low spender
+182,one-time buyer,not recent buyer,average spender
+183,one-time buyer,not recent buyer,low spender
+184,one-time buyer,not recent buyer,average spender
+185,one-time buyer,not recent buyer,low spender
+186,one-time buyer,not recent buyer,low spender
+187,repeat buyer,recent buyer,average spender
+188,repeat buyer,recent buyer,low spender
+189,one-time buyer,not recent buyer,low spender
+190,one-time buyer,not recent buyer,low spender
+191,repeat buyer,recent buyer,low spender
+192,repeat buyer,recent buyer,average spender
+193,one-time buyer,not recent buyer,low spender
+194,repeat buyer,recent buyer,average spender
+195,one-time buyer,recent buyer,average spender
+196,one-time buyer,not recent buyer,average spender
+197,one-time buyer,not recent buyer,low spender
+198,one-time buyer,not recent buyer,low spender
+199,one-time buyer,not recent buyer,low spender
+200,one-time buyer,not recent buyer,low spender
+201,one-time buyer,not recent buyer,low spender
+202,one-time buyer,not recent buyer,low spender
+203,one-time buyer,recent buyer,average spender
+204,one-time buyer,not recent buyer,low spender
+205,one-time buyer,not recent buyer,low spender
+206,one-time buyer,not recent buyer,low spender
+207,one-time buyer,not recent buyer,low spender
+208,repeat buyer,recent buyer,low spender
+209,one-time buyer,not recent buyer,low spender
+210,one-time buyer,not recent buyer,low spender
+211,one-time buyer,not recent buyer,low spender
+212,one-time buyer,not recent buyer,low spender
+213,one-time buyer,not recent buyer,low spender
+214,one-time buyer,not recent buyer,low spender
+215,one-time buyer,not recent buyer,low spender
+216,one-time buyer,not recent buyer,low spender
+217,repeat buyer,recent buyer,low spender
+218,one-time buyer,not recent buyer,low spender
+219,one-time buyer,not recent buyer,low spender
+220,one-time buyer,not recent buyer,low spender
+221,one-time buyer,not recent buyer,low spender
+222,one-time buyer,not recent buyer,low spender
+223,one-time buyer,not recent buyer,low spender
+224,repeat buyer,recent buyer,average spender
+225,one-time buyer,not recent buyer,low spender
+226,one-time buyer,not recent buyer,average spender
+227,one-time buyer,not recent buyer,average spender
+228,one-time buyer,recent buyer,low spender
+229,one-time buyer,not recent buyer,low spender
+230,one-time buyer,not recent buyer,low spender
+231,repeat buyer,recent buyer,average spender
+232,one-time buyer,not recent buyer,low spender
+233,repeat buyer,recent buyer,low spender
+234,one-time buyer,not recent buyer,low spender
+235,one-time buyer,not recent buyer,low spender
+236,one-time buyer,not recent buyer,low spender
+237,repeat buyer,recent buyer,low spender
+238,one-time buyer,not recent buyer,average spender
+239,repeat buyer,recent buyer,low spender
+240,repeat buyer,recent buyer,low spender
+241,one-time buyer,not recent buyer,low spender
+242,one-time buyer,not recent buyer,low spender
+243,one-time buyer,not recent buyer,low spender
+244,one-time buyer,not recent buyer,low spender
+245,one-time buyer,not recent buyer,average spender
+246,one-time buyer,not recent buyer,low spender
+247,one-time buyer,recent buyer,average spender
+248,one-time buyer,not recent buyer,low spender
+249,one-time buyer,not recent buyer,low spender
+250,one-time buyer,not recent buyer,low spender
+251,one-time buyer,not recent buyer,low spender
+252,one-time buyer,not recent buyer,low spender
+253,one-time buyer,recent buyer,low spender
+254,one-time buyer,not recent buyer,low spender
+255,one-time buyer,not recent buyer,low spender
+256,one-time buyer,recent buyer,low spender
+257,one-time buyer,not recent buyer,low spender
+258,one-time buyer,not recent buyer,low spender
+259,one-time buyer,not recent buyer,low spender
+260,one-time buyer,not recent buyer,low spender
+261,one-time buyer,not recent buyer,low spender
+262,one-time buyer,not recent buyer,low spender
+263,one-time buyer,recent buyer,average spender
+264,one-time buyer,not recent buyer,low spender
+265,one-time buyer,not recent buyer,low spender
+266,one-time buyer,not recent buyer,low spender
+267,one-time buyer,not recent buyer,low spender
+268,one-time buyer,not recent buyer,low spender
+269,one-time buyer,not recent buyer,low spender
+270,one-time buyer,not recent buyer,low spender
+271,one-time buyer,not recent buyer,low spender
+272,one-time buyer,not recent buyer,low spender
+273,one-time buyer,not recent buyer,low spender
+274,one-time buyer,not recent buyer,low spender
+275,one-time buyer,not recent buyer,average spender
+276,one-time buyer,not recent buyer,low spender
+277,one-time buyer,not recent buyer,low spender
+278,one-time buyer,not recent buyer,low spender
+279,one-time buyer,not recent buyer,low spender
+280,one-time buyer,not recent buyer,low spender
+281,one-time buyer,not recent buyer,low spender
+282,one-time buyer,not recent buyer,low spender
+283,one-time buyer,not recent buyer,low spender
+284,one-time buyer,not recent buyer,low spender
+285,one-time buyer,not recent buyer,low spender
+286,one-time buyer,not recent buyer,low spender
+287,one-time buyer,recent buyer,low spender
+288,one-time buyer,not recent buyer,low spender
+289,one-time buyer,not recent buyer,average spender
+290,one-time buyer,not recent buyer,low spender
+291,one-time buyer,not recent buyer,low spender
+292,one-time buyer,not recent buyer,average spender
+293,one-time buyer,recent buyer,low spender
+294,one-time buyer,not recent buyer,low spender
+295,one-time buyer,not recent buyer,average spender
+296,one-time buyer,recent buyer,average spender
+297,one-time buyer,not recent buyer,low spender
+298,one-time buyer,not recent buyer,low spender
+299,one-time buyer,not recent buyer,low spender
+300,one-time buyer,recent buyer,low spender
+301,one-time buyer,not recent buyer,low spender
+302,one-time buyer,recent buyer,low spender
+303,one-time buyer,not recent buyer,low spender
+304,one-time buyer,not recent buyer,low spender
+305,one-time buyer,not recent buyer,low spender
+306,one-time buyer,not recent buyer,low spender
+307,one-time buyer,not recent buyer,low spender
+308,one-time buyer,recent buyer,low spender
+309,one-time buyer,not recent buyer,low spender
+310,one-time buyer,recent buyer,average spender
+311,one-time buyer,not recent buyer,low spender
+312,one-time buyer,recent buyer,low spender
+313,one-time buyer,not recent buyer,low spender
+314,one-time buyer,not recent buyer,low spender
+315,one-time buyer,not recent buyer,low spender
+316,one-time buyer,not recent buyer,low spender
+317,one-time buyer,not recent buyer,low spender
+318,one-time buyer,not recent buyer,low spender
+319,one-time buyer,not recent buyer,low spender
+320,one-time buyer,not recent buyer,low spender
+321,one-time buyer,not recent buyer,low spender
+322,one-time buyer,not recent buyer,average spender
+323,one-time buyer,recent buyer,low spender
+324,one-time buyer,not recent buyer,low spender
+325,one-time buyer,not recent buyer,low spender
+326,one-time buyer,not recent buyer,low spender
+327,one-time buyer,not recent buyer,low spender
+328,one-time buyer,not recent buyer,low spender
+329,one-time buyer,not recent buyer,low spender
+330,one-time buyer,recent buyer,average spender
+331,one-time buyer,not recent buyer,low spender
+332,one-time buyer,not recent buyer,low spender
+333,one-time buyer,not recent buyer,low spender
+334,one-time buyer,not recent buyer,average spender
+335,one-time buyer,not recent buyer,low spender
+336,one-time buyer,not recent buyer,low spender
+337,one-time buyer,not recent buyer,low spender
+338,one-time buyer,not recent buyer,low spender
+339,one-time buyer,not recent buyer,average spender
+340,one-time buyer,not recent buyer,low spender
+341,one-time buyer,not recent buyer,low spender
+342,one-time buyer,not recent buyer,low spender
+343,one-time buyer,not recent buyer,low spender
+344,one-time buyer,not recent buyer,low spender
+345,one-time buyer,not recent buyer,low spender
+346,one-time buyer,not recent buyer,low spender
+347,one-time buyer,not recent buyer,low spender
+348,one-time buyer,not recent buyer,low spender
+349,one-time buyer,not recent buyer,low spender
+350,one-time buyer,not recent buyer,average spender
+351,one-time buyer,not recent buyer,low spender
+352,one-time buyer,not recent buyer,low spender
+353,one-time buyer,not recent buyer,low spender
+354,one-time buyer,not recent buyer,low spender
+355,one-time buyer,not recent buyer,low spender
+356,one-time buyer,not recent buyer,low spender
+357,one-time buyer,not recent buyer,low spender
+358,one-time buyer,not recent buyer,low spender
+359,one-time buyer,not recent buyer,low spender
+360,one-time buyer,not recent buyer,low spender
+361,one-time buyer,not recent buyer,low spender
+362,one-time buyer,not recent buyer,low spender
+363,one-time buyer,not recent buyer,low spender
+364,one-time buyer,recent buyer,low spender
+365,one-time buyer,not recent buyer,low spender
+366,one-time buyer,not recent buyer,low spender
+367,one-time buyer,not recent buyer,low spender
+368,one-time buyer,not recent buyer,low spender
+369,one-time buyer,not recent buyer,low spender
+370,one-time buyer,not recent buyer,low spender
+371,one-time buyer,not recent buyer,low spender
+372,one-time buyer,not recent buyer,low spender
+373,one-time buyer,not recent buyer,low spender
+374,one-time buyer,not recent buyer,average spender
+375,one-time buyer,not recent buyer,average spender
+376,one-time buyer,not recent buyer,low spender
+377,one-time buyer,not recent buyer,low spender
+378,one-time buyer,not recent buyer,low spender
+379,one-time buyer,not recent buyer,low spender
+380,one-time buyer,not recent buyer,low spender
+381,one-time buyer,not recent buyer,low spender
+382,one-time buyer,not recent buyer,low spender
+383,one-time buyer,not recent buyer,average spender
+384,one-time buyer,not recent buyer,low spender
+385,one-time buyer,not recent buyer,low spender
+386,one-time buyer,not recent buyer,low spender
+387,one-time buyer,not recent buyer,low spender
+388,one-time buyer,not recent buyer,low spender
+389,one-time buyer,not recent buyer,low spender
+390,one-time buyer,not recent buyer,low spender
+391,one-time buyer,not recent buyer,low spender
+392,one-time buyer,recent buyer,low spender
+393,one-time buyer,not recent buyer,low spender
+394,one-time buyer,not recent buyer,low spender
+395,one-time buyer,recent buyer,low spender
+396,one-time buyer,not recent buyer,low spender
+397,one-time buyer,not recent buyer,low spender
+398,one-time buyer,not recent buyer,low spender
+399,one-time buyer,not recent buyer,low spender
+400,one-time buyer,not recent buyer,low spender
+401,one-time buyer,not recent buyer,low spender
+402,one-time buyer,not recent buyer,low spender
+403,one-time buyer,not recent buyer,average spender
+404,one-time buyer,not recent buyer,low spender
+405,one-time buyer,recent buyer,low spender
+406,one-time buyer,not recent buyer,low spender
+407,one-time buyer,not recent buyer,low spender
+408,one-time buyer,not recent buyer,low spender
+409,one-time buyer,not recent buyer,low spender
+410,one-time buyer,not recent buyer,low spender
+411,one-time buyer,not recent buyer,low spender
+412,one-time buyer,not recent buyer,low spender
+413,one-time buyer,not recent buyer,low spender
+414,one-time buyer,not recent buyer,low spender
+415,one-time buyer,not recent buyer,average spender
+416,one-time buyer,not recent buyer,low spender
+417,one-time buyer,not recent buyer,low spender
+418,one-time buyer,not recent buyer,low spender
+419,one-time buyer,not recent buyer,low spender
+420,one-time buyer,not recent buyer,low spender
+421,one-time buyer,not recent buyer,low spender
+422,one-time buyer,not recent buyer,low spender
+423,one-time buyer,not recent buyer,low spender
+424,one-time buyer,not recent buyer,low spender
+425,one-time buyer,recent buyer,average spender
+426,one-time buyer,not recent buyer,low spender
+427,one-time buyer,recent buyer,low spender
+428,one-time buyer,not recent buyer,low spender
+429,one-time buyer,not recent buyer,low spender
+430,one-time buyer,not recent buyer,low spender
+431,one-time buyer,not recent buyer,low spender
+432,one-time buyer,not recent buyer,low spender
+433,one-time buyer,not recent buyer,low spender
+434,one-time buyer,not recent buyer,low spender
+435,one-time buyer,not recent buyer,low spender
+436,one-time buyer,not recent buyer,low spender
+437,one-time buyer,not recent buyer,low spender
+438,one-time buyer,not recent buyer,low spender
+439,one-time buyer,not recent buyer,low spender
+440,one-time buyer,recent buyer,low spender
+441,one-time buyer,not recent buyer,average spender
+442,one-time buyer,not recent buyer,low spender
+443,one-time buyer,not recent buyer,low spender
+444,one-time buyer,not recent buyer,low spender
+445,one-time buyer,not recent buyer,low spender
+446,one-time buyer,not recent buyer,low spender
+447,one-time buyer,not recent buyer,low spender
+448,one-time buyer,not recent buyer,low spender
+449,one-time buyer,not recent buyer,low spender
+450,one-time buyer,not recent buyer,low spender
+451,one-time buyer,not recent buyer,low spender
+452,one-time buyer,recent buyer,low spender
+453,one-time buyer,not recent buyer,low spender
+454,one-time buyer,not recent buyer,low spender
+455,one-time buyer,not recent buyer,low spender
+456,one-time buyer,not recent buyer,low spender
+457,one-time buyer,not recent buyer,low spender
+458,one-time buyer,not recent buyer,low spender
+459,one-time buyer,not recent buyer,low spender
+460,one-time buyer,not recent buyer,low spender
+461,one-time buyer,not recent buyer,low spender
+462,one-time buyer,not recent buyer,average spender
+463,one-time buyer,recent buyer,low spender
+464,one-time buyer,recent buyer,average spender
+465,one-time buyer,not recent buyer,low spender
+466,one-time buyer,not recent buyer,low spender
+467,one-time buyer,not recent buyer,low spender
+468,one-time buyer,not recent buyer,low spender
+469,one-time buyer,not recent buyer,low spender
+470,one-time buyer,not recent buyer,low spender
+471,one-time buyer,not recent buyer,low spender
+472,one-time buyer,not recent buyer,low spender
+473,one-time buyer,not recent buyer,average spender
+474,one-time buyer,recent buyer,low spender
+475,one-time buyer,not recent buyer,low spender
+476,one-time buyer,recent buyer,low spender
+477,one-time buyer,not recent buyer,low spender
+478,one-time buyer,recent buyer,low spender
+479,one-time buyer,not recent buyer,low spender
+480,one-time buyer,not recent buyer,low spender
+481,one-time buyer,not recent buyer,low spender
+482,one-time buyer,not recent buyer,low spender
+483,one-time buyer,recent buyer,low spender
+484,one-time buyer,not recent buyer,low spender
+485,one-time buyer,not recent buyer,low spender
+486,one-time buyer,not recent buyer,low spender
+487,one-time buyer,not recent buyer,low spender
+488,one-time buyer,recent buyer,low spender
+489,one-time buyer,not recent buyer,low spender
+490,one-time buyer,not recent buyer,low spender
+491,one-time buyer,recent buyer,low spender
+492,one-time buyer,not recent buyer,low spender
+493,one-time buyer,not recent buyer,low spender
+494,one-time buyer,not recent buyer,low spender
+495,one-time buyer,not recent buyer,low spender
+496,one-time buyer,not recent buyer,low spender
+497,one-time buyer,not recent buyer,low spender
+498,one-time buyer,not recent buyer,low spender
+499,one-time buyer,not recent buyer,low spender
+500,one-time buyer,not recent buyer,low spender
+501,one-time buyer,not recent buyer,low spender
+502,one-time buyer,recent buyer,low spender
+503,one-time buyer,not recent buyer,average spender
+504,one-time buyer,not recent buyer,low spender
+505,one-time buyer,recent buyer,low spender
+506,one-time buyer,not recent buyer,low spender
+507,one-time buyer,not recent buyer,low spender
+508,one-time buyer,not recent buyer,low spender
+509,one-time buyer,not recent buyer,average spender
+510,one-time buyer,not recent buyer,low spender
+511,one-time buyer,not recent buyer,low spender
+512,one-time buyer,not recent buyer,low spender
+513,one-time buyer,not recent buyer,low spender
+514,one-time buyer,not recent buyer,low spender
+515,one-time buyer,recent buyer,low spender
+516,one-time buyer,not recent buyer,low spender
+517,one-time buyer,not recent buyer,low spender
+518,one-time buyer,recent buyer,low spender
+519,one-time buyer,not recent buyer,low spender
+520,one-time buyer,not recent buyer,low spender
+521,one-time buyer,not recent buyer,low spender
+522,one-time buyer,not recent buyer,low spender
+523,one-time buyer,not recent buyer,low spender
+524,one-time buyer,not recent buyer,low spender
+525,one-time buyer,not recent buyer,average spender
+526,one-time buyer,not recent buyer,low spender
+527,one-time buyer,not recent buyer,low spender
+528,one-time buyer,not recent buyer,low spender
+529,one-time buyer,not recent buyer,low spender
+530,one-time buyer,not recent buyer,low spender
+531,one-time buyer,not recent buyer,average spender
+532,one-time buyer,not recent buyer,low spender
+533,one-time buyer,not recent buyer,low spender
+534,one-time buyer,not recent buyer,average spender
+535,one-time buyer,not recent buyer,low spender
+536,one-time buyer,not recent buyer,low spender
+537,one-time buyer,not recent buyer,low spender
+538,one-time buyer,not recent buyer,low spender
+539,one-time buyer,not recent buyer,low spender
+540,one-time buyer,not recent buyer,low spender
+541,one-time buyer,not recent buyer,average spender
+542,one-time buyer,not recent buyer,low spender
+543,one-time buyer,not recent buyer,low spender
+544,one-time buyer,not recent buyer,low spender
+545,one-time buyer,not recent buyer,low spender
+546,one-time buyer,not recent buyer,low spender
+547,one-time buyer,recent buyer,average spender
+548,one-time buyer,not recent buyer,low spender
+549,one-time buyer,not recent buyer,low spender
+550,one-time buyer,not recent buyer,average spender
+551,one-time buyer,not recent buyer,low spender
+552,one-time buyer,not recent buyer,low spender
+553,one-time buyer,not recent buyer,low spender
+554,one-time buyer,not recent buyer,low spender
+555,one-time buyer,not recent buyer,low spender
+556,one-time buyer,not recent buyer,low spender
+557,one-time buyer,not recent buyer,low spender
+558,one-time buyer,not recent buyer,low spender
+559,one-time buyer,not recent buyer,low spender
+560,one-time buyer,not recent buyer,low spender
+561,one-time buyer,not recent buyer,low spender
+562,one-time buyer,not recent buyer,low spender
+563,one-time buyer,not recent buyer,low spender
+564,one-time buyer,not recent buyer,low spender
+565,one-time buyer,not recent buyer,low spender
+566,one-time buyer,recent buyer,low spender
+567,one-time buyer,not recent buyer,low spender
+568,one-time buyer,not recent buyer,low spender
+569,one-time buyer,not recent buyer,low spender
+570,one-time buyer,not recent buyer,low spender
+571,one-time buyer,not recent buyer,low spender
+572,one-time buyer,not recent buyer,low spender
+573,one-time buyer,not recent buyer,low spender
+574,one-time buyer,not recent buyer,low spender
+575,one-time buyer,not recent buyer,low spender
+576,one-time buyer,not recent buyer,average spender
+577,one-time buyer,not recent buyer,low spender
+578,one-time buyer,not recent buyer,low spender
+579,one-time buyer,not recent buyer,low spender
+580,one-time buyer,recent buyer,low spender
+581,one-time buyer,not recent buyer,low spender
+582,one-time buyer,not recent buyer,low spender
+583,one-time buyer,not recent buyer,average spender
+584,one-time buyer,not recent buyer,low spender
+585,one-time buyer,not recent buyer,low spender
+586,one-time buyer,not recent buyer,low spender
+587,one-time buyer,not recent buyer,low spender
+588,one-time buyer,not recent buyer,low spender
+589,one-time buyer,not recent buyer,low spender
+590,one-time buyer,not recent buyer,low spender
+591,one-time buyer,not recent buyer,low spender
+592,one-time buyer,not recent buyer,low spender
+593,one-time buyer,not recent buyer,low spender
+594,one-time buyer,recent buyer,low spender
+595,one-time buyer,recent buyer,average spender
+596,one-time buyer,not recent buyer,low spender
+597,one-time buyer,not recent buyer,low spender
+598,one-time buyer,not recent buyer,low spender
+599,one-time buyer,recent buyer,low spender
+600,one-time buyer,not recent buyer,low spender
+601,one-time buyer,recent buyer,low spender
+602,one-time buyer,not recent buyer,low spender
+603,one-time buyer,not recent buyer,low spender
+604,one-time buyer,not recent buyer,low spender
+605,one-time buyer,not recent buyer,low spender
+606,one-time buyer,not recent buyer,low spender
+607,one-time buyer,not recent buyer,average spender
+608,one-time buyer,not recent buyer,low spender
+609,one-time buyer,not recent buyer,average spender
+610,one-time buyer,not recent buyer,low spender
+611,one-time buyer,not recent buyer,low spender
+612,one-time buyer,not recent buyer,low spender
+613,one-time buyer,not recent buyer,low spender
+614,one-time buyer,not recent buyer,low spender
+615,one-time buyer,not recent buyer,low spender
+616,one-time buyer,not recent buyer,low spender
+617,one-time buyer,not recent buyer,low spender
+618,one-time buyer,not recent buyer,low spender
+619,one-time buyer,not recent buyer,low spender
+620,one-time buyer,not recent buyer,low spender
+621,one-time buyer,not recent buyer,low spender
+622,one-time buyer,not recent buyer,low spender
+623,one-time buyer,recent buyer,low spender
+624,one-time buyer,not recent buyer,low spender
+625,one-time buyer,not recent buyer,low spender
+626,one-time buyer,not recent buyer,low spender
+627,one-time buyer,not recent buyer,average spender
+628,one-time buyer,not recent buyer,low spender
+629,one-time buyer,not recent buyer,low spender
+630,one-time buyer,not recent buyer,low spender
+631,one-time buyer,not recent buyer,low spender
+632,one-time buyer,not recent buyer,low spender
+633,one-time buyer,not recent buyer,low spender
+634,one-time buyer,not recent buyer,low spender
+635,one-time buyer,not recent buyer,low spender
+636,one-time buyer,not recent buyer,low spender
+637,one-time buyer,recent buyer,low spender
+638,one-time buyer,not recent buyer,low spender
+639,one-time buyer,not recent buyer,low spender
+640,one-time buyer,not recent buyer,low spender
+641,one-time buyer,not recent buyer,low spender
+642,one-time buyer,not recent buyer,low spender
+643,one-time buyer,not recent buyer,low spender
+644,one-time buyer,not recent buyer,low spender
+645,one-time buyer,not recent buyer,low spender
+646,one-time buyer,not recent buyer,low spender
+647,one-time buyer,not recent buyer,low spender
+648,one-time buyer,not recent buyer,low spender
+649,one-time buyer,not recent buyer,low spender
+650,one-time buyer,not recent buyer,low spender
+651,one-time buyer,not recent buyer,average spender
+652,one-time buyer,not recent buyer,low spender
+653,one-time buyer,not recent buyer,low spender
+654,one-time buyer,not recent buyer,low spender
+655,one-time buyer,not recent buyer,low spender
+656,one-time buyer,not recent buyer,low spender
+657,one-time buyer,not recent buyer,low spender
+658,one-time buyer,not recent buyer,low spender
+659,one-time buyer,not recent buyer,low spender
+660,one-time buyer,not recent buyer,low spender
+661,one-time buyer,not recent buyer,low spender
+662,one-time buyer,not recent buyer,low spender
+663,one-time buyer,not recent buyer,average spender
+664,one-time buyer,not recent buyer,low spender
+665,one-time buyer,not recent buyer,low spender
+666,one-time buyer,not recent buyer,low spender
+667,one-time buyer,not recent buyer,low spender
+668,one-time buyer,not recent buyer,low spender
+669,one-time buyer,not recent buyer,low spender
+670,one-time buyer,not recent buyer,low spender
+671,one-time buyer,not recent buyer,low spender
+672,one-time buyer,not recent buyer,low spender
+673,one-time buyer,not recent buyer,low spender
+674,one-time buyer,not recent buyer,low spender
+675,one-time buyer,not recent buyer,low spender
+676,one-time buyer,not recent buyer,low spender
+677,one-time buyer,not recent buyer,low spender
+678,one-time buyer,not recent buyer,low spender
+679,one-time buyer,not recent buyer,low spender
+680,one-time buyer,recent buyer,low spender
+681,one-time buyer,not recent buyer,average spender
+682,one-time buyer,not recent buyer,low spender
+683,one-time buyer,not recent buyer,low spender
+684,one-time buyer,not recent buyer,low spender
+685,one-time buyer,not recent buyer,low spender
+686,one-time buyer,not recent buyer,low spender
+687,one-time buyer,not recent buyer,low spender
+688,one-time buyer,not recent buyer,low spender
+689,one-time buyer,recent buyer,low spender
+690,one-time buyer,not recent buyer,average spender
+691,one-time buyer,not recent buyer,low spender
+692,one-time buyer,recent buyer,average spender
+693,one-time buyer,not recent buyer,low spender
+694,one-time buyer,not recent buyer,low spender
+695,one-time buyer,not recent buyer,low spender
+696,one-time buyer,not recent buyer,low spender
+697,one-time buyer,not recent buyer,low spender
+698,one-time buyer,not recent buyer,low spender
+699,one-time buyer,not recent buyer,low spender
+700,one-time buyer,not recent buyer,average spender
+701,one-time buyer,not recent buyer,low spender
+702,one-time buyer,not recent buyer,low spender
+703,one-time buyer,not recent buyer,low spender
+704,one-time buyer,not recent buyer,low spender
+705,one-time buyer,not recent buyer,low spender
+706,one-time buyer,not recent buyer,low spender
+707,one-time buyer,not recent buyer,low spender
+708,one-time buyer,not recent buyer,low spender
+709,one-time buyer,not recent buyer,low spender
+710,one-time buyer,not recent buyer,low spender
+711,one-time buyer,not recent buyer,low spender
+712,one-time buyer,not recent buyer,low spender
+713,one-time buyer,not recent buyer,low spender
+714,one-time buyer,not recent buyer,low spender
+715,one-time buyer,not recent buyer,low spender
+716,one-time buyer,not recent buyer,low spender
+717,one-time buyer,not recent buyer,low spender
+718,one-time buyer,not recent buyer,low spender
+719,one-time buyer,not recent buyer,low spender
+720,one-time buyer,not recent buyer,low spender
+721,one-time buyer,not recent buyer,low spender
+722,one-time buyer,not recent buyer,low spender
+723,one-time buyer,not recent buyer,low spender
+724,one-time buyer,not recent buyer,low spender
+725,one-time buyer,not recent buyer,low spender
+726,one-time buyer,not recent buyer,low spender
+727,one-time buyer,not recent buyer,low spender
+728,one-time buyer,not recent buyer,low spender
+729,one-time buyer,not recent buyer,low spender
+730,one-time buyer,not recent buyer,low spender
+731,one-time buyer,not recent buyer,low spender
+732,one-time buyer,not recent buyer,low spender
+733,one-time buyer,not recent buyer,low spender
+734,one-time buyer,not recent buyer,average spender
+735,one-time buyer,not recent buyer,low spender
+736,one-time buyer,not recent buyer,low spender
+737,one-time buyer,not recent buyer,low spender
+738,one-time buyer,recent buyer,low spender
+739,one-time buyer,not recent buyer,low spender
+740,one-time buyer,not recent buyer,low spender
+741,one-time buyer,not recent buyer,low spender
+742,one-time buyer,not recent buyer,low spender
+743,one-time buyer,not recent buyer,low spender
+744,one-time buyer,recent buyer,low spender
+745,one-time buyer,not recent buyer,low spender
+746,one-time buyer,not recent buyer,low spender
+747,one-time buyer,not recent buyer,average spender
+748,one-time buyer,not recent buyer,low spender
+749,one-time buyer,not recent buyer,low spender
+750,one-time buyer,not recent buyer,low spender
+751,one-time buyer,not recent buyer,low spender
+752,one-time buyer,not recent buyer,low spender
+753,one-time buyer,not recent buyer,low spender
+754,one-time buyer,recent buyer,low spender
+755,one-time buyer,not recent buyer,low spender
+756,one-time buyer,not recent buyer,low spender
+757,one-time buyer,not recent buyer,low spender
+758,one-time buyer,not recent buyer,low spender
+759,one-time buyer,not recent buyer,low spender
+760,one-time buyer,not recent buyer,low spender
+761,one-time buyer,not recent buyer,low spender
+762,one-time buyer,not recent buyer,low spender
+763,one-time buyer,not recent buyer,low spender
+764,one-time buyer,not recent buyer,low spender
+765,one-time buyer,recent buyer,low spender
+766,one-time buyer,not recent buyer,low spender
+767,one-time buyer,not recent buyer,low spender
+768,one-time buyer,not recent buyer,low spender
+769,one-time buyer,not recent buyer,low spender
+770,one-time buyer,not recent buyer,low spender
+771,one-time buyer,not recent buyer,low spender
+772,one-time buyer,not recent buyer,low spender
+773,one-time buyer,not recent buyer,low spender
+774,one-time buyer,not recent buyer,low spender
+775,one-time buyer,not recent buyer,low spender
+776,one-time buyer,not recent buyer,low spender
+777,one-time buyer,not recent buyer,low spender
+778,one-time buyer,not recent buyer,low spender
+779,one-time buyer,not recent buyer,low spender
+780,one-time buyer,not recent buyer,average spender
+781,one-time buyer,not recent buyer,low spender
+782,one-time buyer,not recent buyer,low spender
+783,one-time buyer,not recent buyer,average spender
+784,one-time buyer,not recent buyer,low spender
+785,one-time buyer,not recent buyer,low spender
+786,one-time buyer,not recent buyer,low spender
+787,one-time buyer,not recent buyer,low spender
+788,one-time buyer,not recent buyer,low spender
+789,one-time buyer,not recent buyer,low spender
+790,one-time buyer,not recent buyer,low spender
+791,one-time buyer,not recent buyer,low spender
+792,one-time buyer,not recent buyer,low spender
+793,one-time buyer,not recent buyer,low spender
+794,one-time buyer,not recent buyer,low spender
+795,one-time buyer,not recent buyer,low spender
+796,one-time buyer,not recent buyer,low spender
+797,one-time buyer,not recent buyer,low spender
+798,one-time buyer,not recent buyer,average spender
+799,one-time buyer,not recent buyer,low spender
+800,one-time buyer,not recent buyer,low spender
+801,one-time buyer,not recent buyer,low spender
+802,one-time buyer,not recent buyer,low spender
+803,one-time buyer,not recent buyer,average spender
+804,one-time buyer,not recent buyer,low spender
+805,one-time buyer,not recent buyer,low spender
+806,one-time buyer,not recent buyer,low spender
+807,one-time buyer,not recent buyer,low spender
+808,one-time buyer,not recent buyer,low spender
+809,one-time buyer,not recent buyer,average spender
+810,one-time buyer,not recent buyer,average spender
+811,one-time buyer,not recent buyer,low spender
+812,one-time buyer,not recent buyer,low spender
+813,one-time buyer,not recent buyer,low spender
+814,one-time buyer,not recent buyer,low spender
+815,one-time buyer,not recent buyer,average spender
+816,one-time buyer,recent buyer,low spender
+817,one-time buyer,not recent buyer,low spender
+818,one-time buyer,recent buyer,low spender
+819,one-time buyer,not recent buyer,low spender
+820,one-time buyer,recent buyer,low spender
+821,one-time buyer,not recent buyer,low spender
+822,one-time buyer,recent buyer,low spender
+823,one-time buyer,not recent buyer,low spender
+824,one-time buyer,not recent buyer,low spender
+825,one-time buyer,not recent buyer,low spender
+826,one-time buyer,not recent buyer,low spender
+827,one-time buyer,not recent buyer,low spender
+828,one-time buyer,not recent buyer,low spender
+829,one-time buyer,not recent buyer,low spender
+830,one-time buyer,not recent buyer,low spender
+831,one-time buyer,not recent buyer,low spender
+832,one-time buyer,not recent buyer,low spender
+833,one-time buyer,not recent buyer,low spender
+834,one-time buyer,not recent buyer,low spender
+835,one-time buyer,not recent buyer,low spender
+836,one-time buyer,not recent buyer,low spender
+837,one-time buyer,not recent buyer,low spender
+838,one-time buyer,recent buyer,low spender
+839,one-time buyer,recent buyer,low spender
+840,one-time buyer,not recent buyer,average spender
+841,one-time buyer,not recent buyer,low spender
+842,one-time buyer,not recent buyer,low spender
+843,one-time buyer,not recent buyer,low spender
+844,one-time buyer,not recent buyer,low spender
+845,one-time buyer,not recent buyer,low spender
+846,one-time buyer,not recent buyer,low spender
+847,one-time buyer,not recent buyer,low spender
+848,one-time buyer,not recent buyer,low spender
+849,one-time buyer,not recent buyer,low spender
+850,one-time buyer,not recent buyer,low spender
+851,one-time buyer,not recent buyer,low spender
+852,one-time buyer,not recent buyer,low spender
+853,one-time buyer,not recent buyer,low spender
+854,one-time buyer,not recent buyer,low spender
+855,one-time buyer,not recent buyer,low spender
+856,one-time buyer,recent buyer,low spender
+857,one-time buyer,not recent buyer,low spender
+858,one-time buyer,not recent buyer,low spender
+859,one-time buyer,recent buyer,low spender
+860,one-time buyer,recent buyer,low spender
+861,one-time buyer,not recent buyer,low spender
+862,one-time buyer,not recent buyer,low spender
+863,one-time buyer,not recent buyer,low spender
+864,one-time buyer,not recent buyer,low spender
+865,one-time buyer,not recent buyer,low spender
+866,one-time buyer,recent buyer,low spender
+867,one-time buyer,not recent buyer,average spender
+868,one-time buyer,not recent buyer,low spender
+869,one-time buyer,not recent buyer,low spender
+870,one-time buyer,not recent buyer,low spender
+871,one-time buyer,not recent buyer,average spender
+872,one-time buyer,not recent buyer,low spender
+873,one-time buyer,not recent buyer,low spender
+874,one-time buyer,not recent buyer,low spender
+875,one-time buyer,not recent buyer,low spender
+876,one-time buyer,not recent buyer,low spender
+877,one-time buyer,not recent buyer,low spender
+878,one-time buyer,not recent buyer,low spender
+879,one-time buyer,not recent buyer,low spender
+880,one-time buyer,not recent buyer,average spender
+881,one-time buyer,not recent buyer,low spender
+882,one-time buyer,not recent buyer,low spender
+883,one-time buyer,not recent buyer,average spender
+884,one-time buyer,not recent buyer,low spender
+885,one-time buyer,not recent buyer,low spender
+886,one-time buyer,not recent buyer,low spender
+887,one-time buyer,not recent buyer,low spender
+888,one-time buyer,not recent buyer,average spender
+889,one-time buyer,not recent buyer,low spender
+890,one-time buyer,not recent buyer,low spender
+891,one-time buyer,not recent buyer,low spender
+892,one-time buyer,not recent buyer,low spender
+893,one-time buyer,not recent buyer,low spender
+894,one-time buyer,not recent buyer,low spender
+895,one-time buyer,not recent buyer,low spender
+896,one-time buyer,not recent buyer,low spender
+897,one-time buyer,not recent buyer,low spender
+898,one-time buyer,not recent buyer,low spender
+899,one-time buyer,not recent buyer,low spender
+900,one-time buyer,not recent buyer,low spender
+901,one-time buyer,not recent buyer,low spender
+902,one-time buyer,not recent buyer,low spender
+903,one-time buyer,not recent buyer,low spender
+904,one-time buyer,recent buyer,average spender
+905,one-time buyer,recent buyer,average spender
+906,one-time buyer,recent buyer,low spender
+907,one-time buyer,not recent buyer,low spender
+908,one-time buyer,not recent buyer,average spender
+909,one-time buyer,not recent buyer,low spender
+910,one-time buyer,not recent buyer,low spender
+911,one-time buyer,not recent buyer,low spender
+912,one-time buyer,not recent buyer,low spender
+913,one-time buyer,not recent buyer,low spender
+914,one-time buyer,recent buyer,low spender
+915,one-time buyer,not recent buyer,low spender
+916,one-time buyer,recent buyer,low spender
+917,one-time buyer,not recent buyer,low spender
+918,one-time buyer,not recent buyer,low spender
+919,one-time buyer,not recent buyer,low spender
+920,one-time buyer,recent buyer,low spender
+921,one-time buyer,not recent buyer,low spender
+922,one-time buyer,not recent buyer,low spender
+923,one-time buyer,not recent buyer,low spender
+924,one-time buyer,not recent buyer,low spender
+925,one-time buyer,not recent buyer,low spender
+926,one-time buyer,not recent buyer,low spender
+927,one-time buyer,not recent buyer,low spender
+928,one-time buyer,not recent buyer,low spender
+929,one-time buyer,not recent buyer,low spender
+930,one-time buyer,not recent buyer,low spender
+931,one-time buyer,not recent buyer,low spender
+932,one-time buyer,not recent buyer,low spender
+933,one-time buyer,not recent buyer,low spender
+934,one-time buyer,not recent buyer,low spender
+935,one-time buyer,not recent buyer,low spender
+936,one-time buyer,not recent buyer,low spender
+937,one-time buyer,recent buyer,low spender
+938,one-time buyer,recent buyer,low spender
+939,one-time buyer,not recent buyer,low spender
+940,one-time buyer,not recent buyer,low spender
+941,one-time buyer,not recent buyer,low spender
+942,one-time buyer,not recent buyer,low spender
+943,one-time buyer,not recent buyer,low spender
+944,one-time buyer,not recent buyer,low spender
+945,one-time buyer,not recent buyer,low spender
+946,one-time buyer,not recent buyer,low spender
+947,one-time buyer,not recent buyer,low spender
+948,one-time buyer,not recent buyer,low spender
+949,one-time buyer,not recent buyer,low spender
+950,one-time buyer,not recent buyer,low spender
+951,one-time buyer,not recent buyer,low spender
+952,one-time buyer,not recent buyer,low spender
+953,one-time buyer,not recent buyer,low spender
+954,one-time buyer,not recent buyer,low spender
+955,one-time buyer,recent buyer,low spender
+956,one-time buyer,not recent buyer,low spender
+957,one-time buyer,not recent buyer,low spender
+958,one-time buyer,not recent buyer,low spender
+959,one-time buyer,not recent buyer,low spender
+960,one-time buyer,not recent buyer,low spender
+961,one-time buyer,not recent buyer,low spender
+962,one-time buyer,not recent buyer,low spender
+963,one-time buyer,not recent buyer,low spender
+964,one-time buyer,not recent buyer,low spender
+965,one-time buyer,not recent buyer,low spender
+966,one-time buyer,not recent buyer,low spender
+967,one-time buyer,not recent buyer,low spender
+968,one-time buyer,not recent buyer,low spender
+969,one-time buyer,not recent buyer,low spender
+970,one-time buyer,recent buyer,low spender
+971,one-time buyer,not recent buyer,average spender
+972,one-time buyer,recent buyer,low spender
+973,one-time buyer,not recent buyer,low spender
+974,one-time buyer,not recent buyer,low spender
+975,one-time buyer,not recent buyer,low spender
+976,one-time buyer,not recent buyer,average spender
+977,one-time buyer,not recent buyer,low spender
+978,one-time buyer,not recent buyer,low spender
+979,one-time buyer,not recent buyer,low spender
+980,one-time buyer,not recent buyer,low spender
+981,one-time buyer,not recent buyer,low spender
+982,one-time buyer,recent buyer,low spender
+983,one-time buyer,recent buyer,low spender
+984,one-time buyer,not recent buyer,low spender
+985,one-time buyer,not recent buyer,low spender
+986,one-time buyer,not recent buyer,low spender
+987,one-time buyer,recent buyer,low spender
+988,one-time buyer,not recent buyer,low spender
+989,one-time buyer,not recent buyer,low spender
+990,one-time buyer,not recent buyer,low spender
+991,one-time buyer,not recent buyer,low spender
+992,one-time buyer,not recent buyer,low spender
+993,one-time buyer,not recent buyer,low spender
+994,one-time buyer,not recent buyer,low spender
+995,one-time buyer,not recent buyer,low spender
+996,one-time buyer,not recent buyer,low spender
+997,one-time buyer,not recent buyer,average spender
+998,one-time buyer,not recent buyer,low spender
+999,one-time buyer,recent buyer,low spender
+1000,one-time buyer,not recent buyer,low spender
+1001,one-time buyer,not recent buyer,low spender
+1002,one-time buyer,not recent buyer,low spender
+1003,one-time buyer,not recent buyer,low spender
+1004,one-time buyer,not recent buyer,low spender
+1005,one-time buyer,recent buyer,average spender
+1006,one-time buyer,not recent buyer,low spender
+1007,one-time buyer,recent buyer,average spender
+1008,one-time buyer,recent buyer,low spender
+1009,one-time buyer,not recent buyer,low spender
+1010,one-time buyer,recent buyer,low spender
+1011,one-time buyer,not recent buyer,low spender
+1012,one-time buyer,not recent buyer,low spender
+1013,one-time buyer,recent buyer,low spender
+1014,one-time buyer,not recent buyer,low spender
+1015,one-time buyer,not recent buyer,low spender
+1016,one-time buyer,recent buyer,low spender
+1017,one-time buyer,not recent buyer,low spender
+1018,one-time buyer,not recent buyer,average spender
+1019,one-time buyer,not recent buyer,average spender
+1020,one-time buyer,not recent buyer,average spender
+1021,one-time buyer,not recent buyer,low spender
+1022,one-time buyer,not recent buyer,low spender
+1023,one-time buyer,not recent buyer,average spender
+1024,one-time buyer,not recent buyer,low spender
+1025,one-time buyer,not recent buyer,low spender
+1026,one-time buyer,not recent buyer,low spender
+1027,one-time buyer,not recent buyer,low spender
+1028,one-time buyer,not recent buyer,low spender
+1029,one-time buyer,recent buyer,low spender
+1030,one-time buyer,not recent buyer,low spender
+1031,one-time buyer,not recent buyer,low spender
+1032,one-time buyer,not recent buyer,low spender
+1033,one-time buyer,not recent buyer,low spender
+1034,one-time buyer,not recent buyer,low spender
+1035,one-time buyer,not recent buyer,low spender
+1036,one-time buyer,not recent buyer,low spender
+1037,one-time buyer,recent buyer,average spender
+1038,one-time buyer,not recent buyer,low spender
+1039,one-time buyer,not recent buyer,low spender
+1040,one-time buyer,not recent buyer,low spender
+1041,one-time buyer,not recent buyer,low spender
+1042,one-time buyer,not recent buyer,low spender
+1043,one-time buyer,recent buyer,low spender
+1044,one-time buyer,recent buyer,low spender
+1045,one-time buyer,not recent buyer,low spender
+1046,one-time buyer,not recent buyer,low spender
+1047,one-time buyer,not recent buyer,low spender
+1048,one-time buyer,not recent buyer,low spender
+1049,one-time buyer,not recent buyer,low spender
+1050,one-time buyer,not recent buyer,low spender
+1051,one-time buyer,not recent buyer,low spender
+1052,one-time buyer,recent buyer,low spender
+1053,one-time buyer,recent buyer,low spender
+1054,one-time buyer,not recent buyer,low spender
+1055,one-time buyer,not recent buyer,low spender
+1056,one-time buyer,not recent buyer,low spender
+1057,one-time buyer,not recent buyer,low spender
+1058,one-time buyer,not recent buyer,low spender
+1059,one-time buyer,not recent buyer,low spender
+1060,one-time buyer,not recent buyer,low spender
+1061,one-time buyer,not recent buyer,low spender
+1062,one-time buyer,not recent buyer,low spender
+1063,one-time buyer,not recent buyer,average spender
+1064,one-time buyer,not recent buyer,low spender
+1065,one-time buyer,not recent buyer,low spender
+1066,one-time buyer,recent buyer,low spender
+1067,one-time buyer,not recent buyer,low spender
+1068,one-time buyer,not recent buyer,low spender
+1069,one-time buyer,not recent buyer,low spender
+1070,one-time buyer,not recent buyer,average spender
+1071,one-time buyer,not recent buyer,low spender
+1072,one-time buyer,not recent buyer,low spender
+1073,one-time buyer,not recent buyer,low spender
+1074,one-time buyer,not recent buyer,low spender
+1075,one-time buyer,not recent buyer,low spender
+1076,one-time buyer,not recent buyer,low spender
+1077,one-time buyer,not recent buyer,low spender
+1078,one-time buyer,not recent buyer,low spender
+1079,one-time buyer,not recent buyer,low spender
+1080,one-time buyer,not recent buyer,low spender
+1081,one-time buyer,not recent buyer,low spender
+1082,one-time buyer,not recent buyer,low spender
+1083,one-time buyer,not recent buyer,low spender
+1084,one-time buyer,recent buyer,low spender
+1085,one-time buyer,not recent buyer,low spender
+1086,one-time buyer,not recent buyer,average spender
+1087,one-time buyer,not recent buyer,low spender
+1088,one-time buyer,not recent buyer,low spender
+1089,one-time buyer,not recent buyer,low spender
+1090,one-time buyer,not recent buyer,average spender
+1091,one-time buyer,not recent buyer,low spender
+1092,one-time buyer,not recent buyer,low spender
+1093,one-time buyer,not recent buyer,low spender
+1094,one-time buyer,not recent buyer,low spender
+1095,one-time buyer,not recent buyer,low spender
+1096,one-time buyer,not recent buyer,low spender
+1097,one-time buyer,not recent buyer,low spender
+1098,one-time buyer,not recent buyer,low spender
+1099,one-time buyer,not recent buyer,low spender
+1100,one-time buyer,not recent buyer,average spender
+1101,one-time buyer,recent buyer,low spender
+1102,one-time buyer,not recent buyer,low spender
+1103,one-time buyer,not recent buyer,average spender
+1104,one-time buyer,not recent buyer,low spender
+1105,one-time buyer,not recent buyer,low spender
+1106,one-time buyer,not recent buyer,low spender
+1107,one-time buyer,not recent buyer,low spender
+1108,one-time buyer,not recent buyer,low spender
+1109,one-time buyer,not recent buyer,low spender
+1110,one-time buyer,not recent buyer,low spender
+1111,one-time buyer,not recent buyer,low spender
+1112,one-time buyer,not recent buyer,low spender
+1113,one-time buyer,not recent buyer,low spender
+1114,one-time buyer,not recent buyer,low spender
+1115,one-time buyer,not recent buyer,low spender
+1116,one-time buyer,recent buyer,low spender
+1117,one-time buyer,not recent buyer,low spender
+1118,one-time buyer,recent buyer,low spender
+1119,one-time buyer,not recent buyer,low spender
+1120,one-time buyer,not recent buyer,low spender
+1121,one-time buyer,not recent buyer,low spender
+1122,one-time buyer,not recent buyer,low spender
+1123,one-time buyer,not recent buyer,low spender
+1124,one-time buyer,not recent buyer,low spender
+1125,one-time buyer,not recent buyer,low spender
+1126,one-time buyer,recent buyer,low spender
+1127,one-time buyer,not recent buyer,low spender
+1128,one-time buyer,not recent buyer,low spender
+1129,one-time buyer,not recent buyer,low spender
+1130,one-time buyer,not recent buyer,low spender
+1131,one-time buyer,recent buyer,average spender
+1132,one-time buyer,not recent buyer,average spender
+1133,one-time buyer,not recent buyer,low spender
+1134,one-time buyer,not recent buyer,low spender
+1135,one-time buyer,recent buyer,low spender
+1136,one-time buyer,not recent buyer,average spender
+1137,one-time buyer,not recent buyer,low spender
+1138,one-time buyer,not recent buyer,average spender
+1139,one-time buyer,not recent buyer,low spender
+1140,one-time buyer,not recent buyer,low spender
+1141,one-time buyer,not recent buyer,low spender
+1142,one-time buyer,recent buyer,low spender
+1143,one-time buyer,not recent buyer,low spender
+1144,one-time buyer,not recent buyer,low spender
+1145,one-time buyer,not recent buyer,low spender
+1146,one-time buyer,not recent buyer,low spender
+1147,one-time buyer,not recent buyer,low spender
+1148,one-time buyer,not recent buyer,low spender
+1149,one-time buyer,not recent buyer,low spender
+1150,one-time buyer,not recent buyer,low spender
+1151,one-time buyer,not recent buyer,low spender
+1152,one-time buyer,not recent buyer,low spender
+1153,one-time buyer,not recent buyer,low spender
+1154,one-time buyer,recent buyer,low spender
+1155,one-time buyer,not recent buyer,low spender
+1156,one-time buyer,not recent buyer,low spender
+1157,one-time buyer,not recent buyer,low spender
+1158,one-time buyer,not recent buyer,low spender
+1159,one-time buyer,not recent buyer,low spender
+1160,one-time buyer,not recent buyer,low spender
+1161,one-time buyer,recent buyer,low spender
+1162,one-time buyer,not recent buyer,low spender
+1163,one-time buyer,not recent buyer,low spender
+1164,one-time buyer,not recent buyer,low spender
+1165,one-time buyer,not recent buyer,low spender
+1166,one-time buyer,not recent buyer,low spender
+1167,one-time buyer,not recent buyer,low spender
+1168,one-time buyer,not recent buyer,low spender
+1169,one-time buyer,not recent buyer,low spender
+1170,one-time buyer,not recent buyer,low spender
+1171,one-time buyer,recent buyer,average spender
+1172,one-time buyer,recent buyer,low spender
+1173,one-time buyer,not recent buyer,low spender
+1174,one-time buyer,not recent buyer,low spender
+1175,one-time buyer,not recent buyer,low spender
+1176,one-time buyer,recent buyer,low spender
+1177,one-time buyer,not recent buyer,low spender
+1178,one-time buyer,not recent buyer,low spender
+1179,one-time buyer,not recent buyer,low spender
+1180,one-time buyer,not recent buyer,low spender
+1181,one-time buyer,not recent buyer,low spender
+1182,one-time buyer,not recent buyer,low spender
+1183,one-time buyer,not recent buyer,low spender
+1184,one-time buyer,not recent buyer,low spender
+1185,one-time buyer,not recent buyer,low spender
+1186,one-time buyer,recent buyer,low spender
+1187,one-time buyer,recent buyer,low spender
+1188,one-time buyer,not recent buyer,low spender
+1189,one-time buyer,not recent buyer,low spender
+1190,one-time buyer,not recent buyer,low spender
+1191,one-time buyer,not recent buyer,low spender
+1192,one-time buyer,not recent buyer,low spender
+1193,one-time buyer,not recent buyer,low spender
+1194,one-time buyer,not recent buyer,low spender
+1195,one-time buyer,not recent buyer,average spender
+1196,one-time buyer,not recent buyer,low spender
+1197,one-time buyer,not recent buyer,low spender
+1198,one-time buyer,not recent buyer,low spender
+1199,one-time buyer,not recent buyer,average spender
+1200,one-time buyer,not recent buyer,low spender
+1201,one-time buyer,not recent buyer,low spender
+1202,one-time buyer,not recent buyer,low spender
+1203,one-time buyer,not recent buyer,low spender
+1204,one-time buyer,not recent buyer,low spender
+1205,one-time buyer,not recent buyer,average spender
+1206,one-time buyer,not recent buyer,low spender
+1207,one-time buyer,not recent buyer,low spender
+1208,one-time buyer,not recent buyer,low spender
+1209,one-time buyer,not recent buyer,low spender
+1210,one-time buyer,not recent buyer,low spender
+1211,one-time buyer,not recent buyer,low spender
+1212,one-time buyer,not recent buyer,low spender
+1213,one-time buyer,not recent buyer,low spender
+1214,one-time buyer,recent buyer,average spender
+1215,one-time buyer,not recent buyer,low spender
+1216,one-time buyer,not recent buyer,low spender
+1217,one-time buyer,not recent buyer,low spender
+1218,one-time buyer,not recent buyer,low spender
+1219,one-time buyer,not recent buyer,low spender
+1220,one-time buyer,not recent buyer,low spender
+1221,one-time buyer,not recent buyer,low spender
+1222,one-time buyer,not recent buyer,low spender
+1223,one-time buyer,not recent buyer,low spender
+1224,one-time buyer,not recent buyer,big spender
+1225,one-time buyer,not recent buyer,low spender
+1226,one-time buyer,not recent buyer,low spender
+1227,one-time buyer,not recent buyer,low spender
+1228,one-time buyer,not recent buyer,low spender
+1229,one-time buyer,not recent buyer,low spender
+1230,one-time buyer,not recent buyer,low spender
+1231,one-time buyer,recent buyer,low spender
+1232,one-time buyer,not recent buyer,low spender
+1233,one-time buyer,not recent buyer,low spender
+1234,one-time buyer,not recent buyer,low spender
+1235,one-time buyer,not recent buyer,low spender
+1236,one-time buyer,not recent buyer,low spender
+1237,one-time buyer,not recent buyer,average spender
+1238,one-time buyer,not recent buyer,low spender
+1239,one-time buyer,recent buyer,low spender
+1240,one-time buyer,recent buyer,low spender
+1241,one-time buyer,not recent buyer,low spender
+1242,one-time buyer,not recent buyer,low spender
+1243,one-time buyer,not recent buyer,low spender
+1244,one-time buyer,not recent buyer,low spender
+1245,one-time buyer,not recent buyer,low spender
+1246,one-time buyer,not recent buyer,low spender
+1247,one-time buyer,not recent buyer,low spender
+1248,one-time buyer,not recent buyer,low spender
+1249,one-time buyer,not recent buyer,low spender
+1250,one-time buyer,not recent buyer,low spender
+1251,one-time buyer,not recent buyer,low spender
+1252,one-time buyer,not recent buyer,low spender
+1253,one-time buyer,not recent buyer,low spender
+1254,one-time buyer,recent buyer,low spender
+1255,one-time buyer,not recent buyer,low spender
+1256,one-time buyer,recent buyer,low spender
+1257,one-time buyer,not recent buyer,low spender
+1258,one-time buyer,recent buyer,average spender
+1259,one-time buyer,not recent buyer,low spender
+1260,one-time buyer,not recent buyer,low spender
+1261,one-time buyer,not recent buyer,low spender
+1262,one-time buyer,not recent buyer,low spender
+1263,one-time buyer,not recent buyer,low spender
+1264,one-time buyer,not recent buyer,low spender
+1265,one-time buyer,not recent buyer,low spender
+1266,one-time buyer,not recent buyer,low spender
+1267,one-time buyer,not recent buyer,low spender
+1268,one-time buyer,not recent buyer,low spender
+1269,one-time buyer,not recent buyer,low spender
+1270,one-time buyer,not recent buyer,low spender
+1271,one-time buyer,not recent buyer,low spender
+1272,one-time buyer,not recent buyer,low spender
+1273,one-time buyer,not recent buyer,low spender
+1274,one-time buyer,not recent buyer,low spender
+1275,one-time buyer,not recent buyer,low spender
+1276,one-time buyer,not recent buyer,low spender
+1277,one-time buyer,not recent buyer,low spender
+1278,one-time buyer,not recent buyer,low spender
+1279,one-time buyer,recent buyer,low spender
+1280,one-time buyer,not recent buyer,low spender
+1281,one-time buyer,not recent buyer,low spender
+1282,one-time buyer,not recent buyer,low spender
+1283,one-time buyer,not recent buyer,low spender
+1284,one-time buyer,not recent buyer,average spender
+1285,one-time buyer,not recent buyer,low spender
+1286,one-time buyer,not recent buyer,low spender
+1287,one-time buyer,not recent buyer,low spender
+1288,one-time buyer,not recent buyer,low spender
+1289,one-time buyer,not recent buyer,low spender
+1290,one-time buyer,not recent buyer,low spender
+1291,one-time buyer,not recent buyer,low spender
+1292,one-time buyer,not recent buyer,low spender
+1293,one-time buyer,not recent buyer,low spender
+1294,one-time buyer,not recent buyer,low spender
+1295,one-time buyer,not recent buyer,low spender
+1296,one-time buyer,not recent buyer,low spender
+1297,one-time buyer,not recent buyer,low spender
+1298,one-time buyer,not recent buyer,low spender
+1299,one-time buyer,not recent buyer,low spender
+1300,one-time buyer,not recent buyer,low spender
+1301,one-time buyer,not recent buyer,low spender
+1302,one-time buyer,not recent buyer,low spender
+1303,one-time buyer,recent buyer,low spender
+1304,one-time buyer,not recent buyer,low spender
+1305,one-time buyer,not recent buyer,low spender
+1306,one-time buyer,not recent buyer,low spender
+1307,one-time buyer,not recent buyer,low spender
+1308,one-time buyer,not recent buyer,low spender
+1309,one-time buyer,not recent buyer,low spender
+1310,one-time buyer,recent buyer,low spender
+1311,one-time buyer,not recent buyer,low spender
+1312,one-time buyer,not recent buyer,average spender
+1313,one-time buyer,not recent buyer,low spender
+1314,one-time buyer,not recent buyer,low spender
+1315,one-time buyer,not recent buyer,low spender
+1316,one-time buyer,not recent buyer,low spender
+1317,one-time buyer,not recent buyer,low spender
+1318,one-time buyer,not recent buyer,low spender
+1319,one-time buyer,not recent buyer,low spender
+1320,one-time buyer,not recent buyer,low spender
+1321,one-time buyer,not recent buyer,low spender
+1322,one-time buyer,not recent buyer,low spender
+1323,one-time buyer,not recent buyer,low spender
+1324,one-time buyer,not recent buyer,low spender
+1325,one-time buyer,not recent buyer,low spender
+1326,one-time buyer,not recent buyer,low spender
+1327,one-time buyer,not recent buyer,low spender
+1328,one-time buyer,not recent buyer,low spender
+1329,one-time buyer,not recent buyer,low spender
+1330,one-time buyer,recent buyer,low spender
+1331,one-time buyer,not recent buyer,low spender
+1332,one-time buyer,not recent buyer,average spender
+1333,one-time buyer,not recent buyer,low spender
+1334,one-time buyer,not recent buyer,low spender
+1335,one-time buyer,not recent buyer,low spender
+1336,one-time buyer,not recent buyer,low spender
+1337,one-time buyer,not recent buyer,low spender
+1338,one-time buyer,not recent buyer,low spender
+1339,one-time buyer,not recent buyer,low spender
+1340,one-time buyer,not recent buyer,low spender
+1341,one-time buyer,not recent buyer,low spender
+1342,one-time buyer,not recent buyer,low spender
+1343,one-time buyer,not recent buyer,low spender
+1344,one-time buyer,not recent buyer,low spender
+1345,one-time buyer,not recent buyer,low spender
+1346,one-time buyer,not recent buyer,low spender
+1347,one-time buyer,not recent buyer,low spender
+1348,one-time buyer,not recent buyer,average spender
+1349,one-time buyer,not recent buyer,low spender
+1350,one-time buyer,not recent buyer,low spender
+1351,one-time buyer,not recent buyer,low spender
+1352,one-time buyer,not recent buyer,low spender
+1353,one-time buyer,not recent buyer,low spender
+1354,one-time buyer,not recent buyer,low spender
+1355,one-time buyer,not recent buyer,low spender
+1356,one-time buyer,not recent buyer,low spender
+1357,one-time buyer,not recent buyer,low spender
+1358,one-time buyer,not recent buyer,low spender
+1359,one-time buyer,not recent buyer,low spender
+1360,one-time buyer,not recent buyer,low spender
+1361,one-time buyer,not recent buyer,low spender
+1362,one-time buyer,not recent buyer,low spender
+1363,one-time buyer,not recent buyer,low spender
+1364,one-time buyer,not recent buyer,low spender
+1365,one-time buyer,not recent buyer,low spender
+1366,one-time buyer,not recent buyer,low spender
+1367,one-time buyer,not recent buyer,low spender
+1368,one-time buyer,not recent buyer,low spender
+1369,one-time buyer,not recent buyer,low spender
+1370,one-time buyer,not recent buyer,low spender
+1371,one-time buyer,not recent buyer,low spender
+1372,one-time buyer,not recent buyer,low spender
+1373,one-time buyer,not recent buyer,low spender
+1374,one-time buyer,not recent buyer,low spender
+1375,one-time buyer,not recent buyer,low spender
+1376,one-time buyer,not recent buyer,low spender
+1377,one-time buyer,not recent buyer,low spender
+1378,one-time buyer,not recent buyer,low spender
+1379,one-time buyer,not recent buyer,low spender
+1380,one-time buyer,not recent buyer,low spender
+1381,one-time buyer,not recent buyer,low spender
+1382,one-time buyer,not recent buyer,average spender
+1383,one-time buyer,recent buyer,low spender
+1384,one-time buyer,not recent buyer,low spender
+1385,one-time buyer,not recent buyer,low spender
+1386,one-time buyer,not recent buyer,low spender
+1387,one-time buyer,not recent buyer,low spender
+1388,one-time buyer,not recent buyer,low spender
+1389,one-time buyer,not recent buyer,low spender
+1390,one-time buyer,not recent buyer,low spender
+1391,one-time buyer,not recent buyer,average spender
+1392,one-time buyer,not recent buyer,low spender
+1393,one-time buyer,recent buyer,low spender
+1394,one-time buyer,not recent buyer,low spender
+1395,one-time buyer,not recent buyer,low spender
+1396,one-time buyer,not recent buyer,low spender
+1397,one-time buyer,not recent buyer,low spender
+1398,one-time buyer,not recent buyer,low spender
+1399,one-time buyer,not recent buyer,low spender
+1400,one-time buyer,not recent buyer,low spender
+1401,one-time buyer,not recent buyer,low spender
+1402,one-time buyer,not recent buyer,low spender
+1403,one-time buyer,not recent buyer,average spender
+1404,one-time buyer,not recent buyer,low spender
+1405,one-time buyer,not recent buyer,low spender
+1406,one-time buyer,not recent buyer,low spender
+1407,one-time buyer,not recent buyer,low spender
+1408,one-time buyer,not recent buyer,low spender
+1409,one-time buyer,not recent buyer,low spender
+1410,one-time buyer,not recent buyer,low spender
+1411,one-time buyer,recent buyer,low spender
+1412,one-time buyer,not recent buyer,low spender
+1413,one-time buyer,not recent buyer,low spender
+1414,one-time buyer,not recent buyer,low spender
+1415,one-time buyer,not recent buyer,low spender
+1416,one-time buyer,not recent buyer,low spender
+1417,one-time buyer,not recent buyer,low spender
+1418,one-time buyer,not recent buyer,low spender
+1419,one-time buyer,recent buyer,low spender
+1420,one-time buyer,not recent buyer,low spender
+1421,one-time buyer,not recent buyer,average spender
+1422,one-time buyer,not recent buyer,low spender
+1423,one-time buyer,not recent buyer,average spender
+1424,one-time buyer,not recent buyer,low spender
+1425,one-time buyer,not recent buyer,low spender
+1426,one-time buyer,not recent buyer,low spender
+1427,one-time buyer,not recent buyer,low spender
+1428,one-time buyer,not recent buyer,low spender
+1429,one-time buyer,not recent buyer,low spender
+1430,one-time buyer,not recent buyer,low spender
+1431,one-time buyer,not recent buyer,low spender
+1432,one-time buyer,not recent buyer,low spender
+1433,one-time buyer,recent buyer,low spender
+1434,one-time buyer,not recent buyer,low spender
+1435,one-time buyer,not recent buyer,low spender
+1436,one-time buyer,not recent buyer,low spender
+1437,one-time buyer,not recent buyer,low spender
+1438,one-time buyer,not recent buyer,average spender
+1439,one-time buyer,not recent buyer,low spender
+1440,one-time buyer,not recent buyer,low spender
+1441,one-time buyer,recent buyer,low spender
+1442,one-time buyer,not recent buyer,low spender
+1443,one-time buyer,not recent buyer,low spender
+1444,one-time buyer,not recent buyer,low spender
+1445,one-time buyer,recent buyer,low spender

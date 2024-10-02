@@ -65,3 +65,99 @@ The **BikeStores** database contains information related to a bike store chain, 
 - **Orders**: Orders placed by customers.
 - **Order Items**: Details of products within each order.
 
+### Data Cleaning
+
+- Identified rows with `NULL` values in important columns such as `phone` in the `customers` and `staffs` tables.
+- Found missing `shipped_date` entries in the `orders` table, which could affect shipping time analyses.
+- Decided to retain these entries.
+
+# ER Diagram for BikeStores
+
+## Entities and Attributes
+
+### Brands
+- `brand_id` (INT)
+- `brand_name` (VARCHAR(255))
+
+### Categories
+- `category_id` (INT)
+- `category_name` (VARCHAR(255))
+
+### Customers
+- `customer_id` (INT)
+- `first_name` (VARCHAR(255))
+- `last_name` (VARCHAR(255))
+- `phone` (VARCHAR(25))
+- `email` (VARCHAR(255))
+- `street` (VARCHAR(255))
+- `city` (VARCHAR(50))
+- `state` (VARCHAR(25))
+- `zip_code` (VARCHAR(5))
+
+### Order Items
+- `order_id` (INT)
+- `item_id` (INT)
+- `product_id` (INT)
+- `quantity` (INT)
+- `list_price` (DECIMAL(10,2))
+- `discount` (DECIMAL(4,2))
+
+### Orders
+- `order_id` (INT)
+- `customer_id` (INT)
+- `order_status` (TINYINT)
+- `order_date` (DATE)
+- `required_date` (DATE)
+- `shipped_date` (DATE)
+- `store_id` (INT)
+- `staff_id` (INT)
+
+### Products
+- `product_id` (INT)
+- `product_name` (VARCHAR(255))
+- `brand_id` (INT)
+- `category_id` (INT)
+- `model_year` (SMALLINT)
+- `list_price` (DECIMAL(10,2))
+
+### Staffs
+- `staff_id` (INT)
+- `first_name` (VARCHAR(50))
+- `last_name` (VARCHAR(50))
+- `email` (VARCHAR(255))
+- `phone` (VARCHAR(25))
+- `active` (TINYINT)
+- `store_id` (INT)
+- `manager_id` (INT)
+
+### Stocks
+- `store_id` (INT)
+- `product_id` (INT)
+- `quantity` (INT)
+
+### Stores
+- `store_id` (INT)
+- `store_name` (VARCHAR(255))
+- `phone` (VARCHAR(25))
+- `email` (VARCHAR(255))
+- `street` (VARCHAR(255))
+- `city` (VARCHAR(255))
+- `state` (VARCHAR(10))
+- `zip_code` (VARCHAR(5))
+
+## Relationships
+
+- **Products** are associated with **Brands** and **Categories**.
+- **Customers** place **Orders**.
+- **Orders** contain **Order Items**.
+- **Order Items** refer to **Products**.
+- **Orders** are handled by **Staffs** and belong to **Stores**.
+- **Staffs** work at **Stores** and may manage other **Staffs**.
+- **Stocks** track **Products** in **Stores**.
+
+## Example of Relationships:
+
+- A `Customer` places an `Order`, which contains multiple `Order Items`. Each `Order Item` refers to a specific `Product`. 
+- Each `Product` belongs to a `Brand` and a `Category`.
+- `Staff` members manage `Orders` and work at a `Store`.
+- `Stores` stock `Products`, and the `Stocks` entity tracks their quantities.
