@@ -80,6 +80,151 @@ SELECT *
 FROM stores
 LIMIT 5;
 
+-- Calculate total sales revenue across all orders
+SELECT 
+    SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_sales_revenue
+FROM 
+    order_items oi;
+
+-- insight: total sales is 7.68 million across all products 
+
+
+-- Calculate average order value
+SELECT 
+    AVG(order_total) AS average_order_value
+FROM (
+    SELECT 
+        o.order_id,
+        SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS order_total
+    FROM 
+        orders o
+    JOIN 
+        order_items oi ON o.order_id = oi.order_id
+    GROUP BY 
+        o.order_id
+) sub;
+-- customers on average spend ~4761 dollars
+
+-- Count total number of transactions
+SELECT 
+    COUNT(*) AS total_transactions
+FROM 
+    orders;
+
+-- overall sales activity across all orders is 1615
+
+-- Calculate average discount offered
+SELECT
+    AVG(oi.discount) AS average_discount
+FROM
+    order_items oi;
+
+-- on average a high discount of 10% is given to orders implying high discounts offered to promote sales
+
+-- Count total number of unique customers
+SELECT
+    COUNT(DISTINCT customer_id) AS total_customers
+FROM
+    customers;
+
+-- only 1445 unique customers, implying a tiny fraction of potential bicycle buyers purchasing at the store
+
+-- Find minimum and maximum order values
+SELECT
+    MIN(order_total) AS minimum_order_value,
+    MAX(order_total) AS maximum_order_value
+FROM (
+    SELECT 
+        o.order_id,
+        SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS order_total
+    FROM 
+        orders o
+    JOIN 
+        order_items oi ON o.order_id = oi.order_id
+    GROUP BY 
+        o.order_id
+) sub;
+
+-- customers buy items value anywhere from 105 dollars to 29150 dollars
+
+-- Calculate total sales by staff member
+SELECT
+    s.staff_id,
+    CONCAT(s.first_name, ' ', s.last_name) AS staff_name,
+    SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS staff_total_sales
+FROM
+    orders o
+JOIN
+    order_items oi ON o.order_id = oi.order_id
+JOIN
+    staffs s ON o.staff_id = s.staff_id
+GROUP BY
+    s.staff_id, staff_name
+ORDER BY
+    staff_total_sales DESC;
+
+-- Staff can be incentivized or evaluated for performance based on the total sales numbers
+
+-- Find phone numbers that do not match the standard format
+SELECT
+    staff_id,
+    first_name,
+    last_name,
+    phone
+FROM
+    staffs
+WHERE
+    phone IS NOT NULL
+    AND phone NOT REGEXP '^[0-9]{3}-[0-9]{3}-[0-9]{4}$';
+-- phone number data for staff is consistent in US format
+
+-- Identify potential duplicate customers based on name and email
+SELECT
+    first_name,
+    last_name,
+    email,
+    COUNT(*) AS occurrence
+FROM
+    customers
+GROUP BY
+    first_name,
+    last_name,
+    email
+HAVING
+    COUNT(*) > 1;
+
+-- there are no duplicate customers
+
+-- Update 'first_name' and 'last_name' fields to remove extra spaces
+UPDATE
+    customers
+SET
+    first_name = TRIM(first_name),
+    last_name = TRIM(last_name);
+-- updated 1445 rows with trims
+
+UPDATE 
+    customers
+SET
+    phone='N/A'
+WHERE
+    TRIM(phone)='NULL' OR ISNULL(phone);
+
+-- insight: cleaning null values for customers
+-- updated 1267 rows
+
+-- Find products with zero or negative stock quantities
+SELECT
+    store_id,
+    product_id,
+    quantity
+FROM
+    stocks
+WHERE
+    quantity <= 0;
+-- If inventory is low, restock else if data entry error, identify and correct stock numbers
+-- there are no negative numbers in stock
+
 -- List all products: Write a query to retrieve all product names and their corresponding brand names.
 SELECT p.product_name, b.brand_name
 FROM products as p
