@@ -321,7 +321,8 @@ The primary tables in the schema are:
         - The YEAR: function in SQL is used to extract the year from a date or datetime value. It returns the year as a four-digit integer, which can be useful for filtering, grouping, or performing calculations based on the year.
         - The MONTHNAME: function in SQL is used to retrieve the name of the month from a date or datetime value. It returns the full name of the month as a string, which can be useful for reporting, formatting dates, or grouping results based on month names.
         - The LEAD: function in SQL is a window function that provides access to the subsequent row in a result set without the need for a self-join. It allows you to retrieve data from a following row based on a specified order, making it useful for various analytical tasks, such as calculating differences between rows or comparing values
-
+        - The COALESCE: function in SQL is used to return the first non-null value from a list of arguments. It's particularly useful for handling NULL values in your data, allowing you to provide default values or perform conditional logic.
+        
 ### analysis_output_csv - folder
 
 	- All analysis output will be stored in .csv format into  this folder
