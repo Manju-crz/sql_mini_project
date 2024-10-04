@@ -35,7 +35,7 @@ Follow these below steps to run the queries:
 
 ### 1. Download the schemas / data set.
     - Need to unzip the submitted 'SQL_Mini_Project', and store it into your preferred local directory.
-        Unzipped directory contains the queries schema files and data set related csv files along with reference documents.
+        Unzipped directory contains the queries schema files in analysis folder and data set related csv files along with reference documents.
         Note : Instead, you may also download the data set CSV files from the kaggle link - https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data
     - Currently we have the data from 2016 to 2018 in this data set
 
@@ -60,11 +60,11 @@ Follow these below steps to run the queries:
                 Global Availability: Access your databases from anywhere, with data replication options for high availability.
 
 ### 3. Load the schema files into the workbench
-    - Open the database connection and Import the schema files into your workbench
+    - Open the database connection and Import the sql query file from analysis folder into your workbench
 
-### 4. Load the schema files into the workbench
+### 4. Initial Queries Manipulation
     - Copy the location of the directory 'SQL_Mini_Project' (Make sure the path is pointing to csv files)
-    - Open the file 'BikeStores-load_data', and replace all the text 'CSV_FILES_PATH' to copied path (eg- C:\\DATA\\VS_Code_Notes\\SQL_Mini_Project) Note- You may have to use single forward slash in case of mac
+    - Open the file 'BikeStores-load_data', and replace all the text '$CSV_FILES_PATH$' to copied path (eg- C:\\DATA\\VS_Code_Notes\\SQL_Mini_Project\\) Note- You may have to use single forward slash in case of mac
 
 ### 5. Run the queries:
 
@@ -323,17 +323,7 @@ The primary tables in the schema are:
         - The LEAD: function in SQL is a window function that provides access to the subsequent row in a result set without the need for a self-join. It allows you to retrieve data from a following row based on a specified order, making it useful for various analytical tasks, such as calculating differences between rows or comparing values
         - The COALESCE: function in SQL is used to return the first non-null value from a list of arguments. It's particularly useful for handling NULL values in your data, allowing you to provide default values or perform conditional logic.
         
-### analysis_output_csv - folder
 
-	- All analysis output will be stored in .csv format into  this folder
-	- "sql 1_2024-10-02T1406"  will have date and the sequnce number in the order of execution 
-	- Eample:
-		sql 1_2024-10-02T1406.csv
-		sql 3_2024-10-02T1406.csv
-		sql 4_2024-10-02T1406.csv
-		sql 5_2024-10-02T1406.csv
-		sql 6_2024-10-02T1407.csv
-	
 ### Bikestores_ER_ Diagram.sql 
 	- Entity-Relationship (ER) diagram for the bike store, we need to identify the entities and their relationships based on the provided CSV files.
 	
@@ -400,6 +390,7 @@ We extend our gratitude to Azure for its cloud database solutions, which allow u
 
 - **Hex Platform**
 We would like to acknowledge the Hex platform for its innovative approach to collaborative data analysis. Hex has empowered our team to seamlessly explore, analyze, and visualize data in an integrated environment. Its combination of coding capabilities and no-code options has greatly enhanced our workflow, allowing for effective collaboration and insight sharing among team members. We appreciate the tools and features Hex provides, which have significantly contributed to the success of our data-driven projects.
+Once after executing the hex queries, you would get an option to download the output in the form of csv files, in your local system's preferred directory.
 
 
 ## Contact Information

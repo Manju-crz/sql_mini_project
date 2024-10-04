@@ -12,55 +12,55 @@ use bikestore;
 SET GLOBAL local_infile=1;
 
 -- load data for categories
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/categories.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$categories.csv'
     INTO TABLE categories FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for brands
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/brands.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$brands.csv'
     INTO TABLE brands FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for products
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/products.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$products.csv'
     INTO TABLE products FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for customers
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/customers.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$customers.csv'
     INTO TABLE customers FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for stores
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/stores.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$stores.csv'
     INTO TABLE stores FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for staffs
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/staffs.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$staffs.csv'
     INTO TABLE staffs FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for orders
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/orders.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$orders.csv'
     INTO TABLE orders FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for order_items
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/order_items.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$order_items.csv'
     INTO TABLE order_items FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
 
 -- load data for stocks
-LOAD DATA LOCAL INFILE '/Users/abhijithdasharathi/study/Mtech/SQL/sql_project/BikeStores/stocks.csv'
+LOAD DATA LOCAL INFILE '$CSV_FILES_PATH$stocks.csv'
     INTO TABLE stocks FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS;
